@@ -45,7 +45,7 @@ export default function AdvancedFilter() {
   const localSearch = () => {
     const cocktails = getAllCocktails();
     const baseFiltered = cocktails.filter(
-      c => c.base === selectedBase || c.base === 'mixed'
+      c => c.base === selectedBase
     );
 
     const queryWords = flavorQuery.toLowerCase().split(' ');
@@ -81,9 +81,8 @@ export default function AdvancedFilter() {
     whisky: '🥃',
     tequila: '🌵',
     mocktail: '🎉',
-    mixed: '🍹',
-    aperol: '✨',
-    amaretto: '🤎',
+    brandy: '🍷',
+    champagne: '🥂',
   };
 
   return (
