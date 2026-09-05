@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { initDatabase } from './utils/database';
+import { speakWelcomeMessage } from './utils/speechSynthesis';
 import IngredientMatcher from './components/IngredientMatcher';
 import RecipeSearch from './components/RecipeSearch';
 import TopSuggestions from './components/TopSuggestions';
@@ -12,7 +13,13 @@ export default function App() {
   const [dbReady, setDbReady] = useState(false);
 
   useEffect(() => {
-    initDatabase().then(() => setDbReady(true));
+    initDatabase().then(() => {
+      setDbReady(true);
+      // Play welcome message after a short delay to ensure app is loaded
+      setTimeout(() => {
+        speakWelcomeMessage('Welcome to Dutta Cocktail Wizard!! Enjoy!!');
+      }, 500);
+    });
   }, []);
 
   if (!dbReady) {
