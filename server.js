@@ -127,6 +127,75 @@ app.post('/api/filter-by-flavor', async (req, res) => {
   }
 });
 
+// Image recognition endpoint for ingredient detection
+app.post('/api/recognize-ingredients', async (req, res) => {
+  try {
+    if (!CLAUDE_API_KEY) {
+      return res.status(400).json({
+        error: 'API key not configured'
+      });
+    }
+
+    const { image, mediaType } = req.body;
+
+    if (!image) {
+      return res.status(400).json({ error: 'No image provided' });
+    }
+
+    const response = await fetch(CLAUDE_API_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': CLAUDE_API_KEY,
+        'anthropic-version': '2023-06-01',
+      },
+      body: JSON.stringify({
+        model: 'claude-3-5-haiku-20241022',
+        max_tokens: 512,
+        messages: [
+          {
+            role: 'user',
+            content: [
+              {
+                type: 'image',
+                source: {
+                  type: 'base64',
+                  media_type: mediaType || 'image/jpeg',
+                  data: image,
+                },
+              },
+              {
+                type: 'text',
+                text: 'Look at this image and identify all cocktail/drink ingredients you can see. Return ONLY a comma-separated list of ingredient names (no descriptions, no quantities). Focus on spirits, juices, mixers, and garnishes. If you see bottles, identify what\'s inside them. Return the list only, nothing else.',
+              },
+            ],
+          },
+        ],
+      }),
+    });
+
+    if (!response.ok) {
+      const error = await response.json();
+      console.error('Claude API error:', error);
+      return res.status(response.status).json({ error: 'Image analysis failed' });
+    }
+
+    const data = await response.json();
+    const ingredientText = data.content[0].text;
+
+    // Parse the comma-separated list
+    const ingredients = ingredientText
+      .split(',')
+      .map(i => i.trim().toLowerCase())
+      .filter(i => i.length > 0);
+
+    res.json({ ingredients });
+  } catch (error) {
+    console.error('Server error:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
 // Health check endpoint
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', apiConfigured: !!CLAUDE_API_KEY });

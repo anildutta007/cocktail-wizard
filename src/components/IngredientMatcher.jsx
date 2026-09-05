@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { searchByIngredients } from '../utils/database';
+import { startVoiceRecognition, recognizeIngredientsFromImage, parseIngredientsFromText } from '../utils/aiRecognition';
 import CocktailCard from './CocktailCard';
 
 export default function IngredientMatcher() {
@@ -7,6 +8,10 @@ export default function IngredientMatcher() {
   const [inputValue, setInputValue] = useState('');
   const [results, setResults] = useState([]);
   const [searched, setSearched] = useState(false);
+  const [isListening, setIsListening] = useState(false);
+  const [isAnalyzingImage, setIsAnalyzingImage] = useState(false);
+  const cameraInputRef = useRef(null);
+  const recognitionRef = useRef(null);
 
   const commonIngredients = [
     'gin', 'vodka', 'rum', 'whisky', 'tequila', 'brandy',
@@ -24,6 +29,58 @@ export default function IngredientMatcher() {
 
   const handleRemoveIngredient = (ingredient) => {
     setIngredients(ingredients.filter(i => i !== ingredient));
+  };
+
+  const handleVoiceInput = () => {
+    if (isListening) {
+      if (recognitionRef.current) {
+        recognitionRef.current.stop();
+      }
+      setIsListening(false);
+      return;
+    }
+
+    setIsListening(true);
+    const recognition = startVoiceRecognition(
+      (transcript) => {
+        const foundIngredients = parseIngredientsFromText(transcript);
+        foundIngredients.forEach(ing => {
+          if (!ingredients.includes(ing)) {
+            setIngredients(prev => [...prev, ing]);
+          }
+        });
+        setIsListening(false);
+      },
+      (error) => {
+        console.error(error);
+        setIsListening(false);
+        alert(`Voice recognition error: ${error}`);
+      }
+    );
+    recognitionRef.current = recognition;
+  };
+
+  const handleCameraCapture = async (event) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+
+    setIsAnalyzingImage(true);
+    try {
+      const recognizedIngredients = await recognizeIngredientsFromImage(file);
+      recognizedIngredients.forEach(ing => {
+        const normalizedIng = ing.toLowerCase().trim();
+        if (!ingredients.includes(normalizedIng)) {
+          setIngredients(prev => [...prev, normalizedIng]);
+        }
+      });
+    } catch (error) {
+      console.error('Image recognition error:', error);
+      alert(`Failed to recognize ingredients: ${error.message}`);
+    } finally {
+      setIsAnalyzingImage(false);
+      // Reset input so same file can be selected again
+      event.target.value = '';
+    }
   };
 
   const handleSearch = () => {
@@ -48,19 +105,56 @@ export default function IngredientMatcher() {
       <div>
         <h2 className="text-3xl font-bold mb-4 text-cocktail-gold">What You Have</h2>
 
-        <div className="bg-gradient-to-r from-cocktail-dark to-cocktail-purple p-4 rounded-lg mb-4">
-          <input
-            type="text"
-            value={inputValue}
-            onChange={(e) => setInputValue(e.target.value)}
-            onKeyPress={(e) => {
-              if (e.key === 'Enter' && inputValue.trim()) {
-                handleAddIngredient(inputValue.trim());
-              }
-            }}
-            placeholder="Type an ingredient..."
-            className="w-full px-4 py-2 rounded bg-cocktail-dark border border-cocktail-gold text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cocktail-gold"
-          />
+        <div className="bg-gradient-to-r from-cocktail-dark to-cocktail-purple p-4 rounded-lg mb-4 space-y-3">
+          <div className="flex gap-2">
+            <input
+              type="text"
+              value={inputValue}
+              onChange={(e) => setInputValue(e.target.value)}
+              onKeyPress={(e) => {
+                if (e.key === 'Enter' && inputValue.trim()) {
+                  handleAddIngredient(inputValue.trim());
+                }
+              }}
+              placeholder="Type an ingredient..."
+              className="flex-1 px-4 py-2 rounded bg-cocktail-dark border border-cocktail-gold text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cocktail-gold"
+            />
+
+            {/* Voice Input Button */}
+            <button
+              onClick={handleVoiceInput}
+              title={isListening ? 'Stop listening' : 'Speak ingredients'}
+              className={`px-4 py-2 rounded font-semibold transition ${
+                isListening
+                  ? 'bg-cocktail-accent text-white animate-pulse'
+                  : 'bg-cocktail-gold text-cocktail-dark hover:opacity-90'
+              }`}
+            >
+              {isListening ? '🎤 Listening...' : '🎤'}
+            </button>
+
+            {/* Camera Input Button */}
+            <button
+              onClick={() => cameraInputRef.current?.click()}
+              disabled={isAnalyzingImage}
+              title="Take photo of ingredients"
+              className={`px-4 py-2 rounded font-semibold transition ${
+                isAnalyzingImage
+                  ? 'bg-gray-500 text-white opacity-50 cursor-not-allowed'
+                  : 'bg-cocktail-gold text-cocktail-dark hover:opacity-90'
+              }`}
+            >
+              {isAnalyzingImage ? '📷 Analyzing...' : '📷'}
+            </button>
+
+            <input
+              ref={cameraInputRef}
+              type="file"
+              accept="image/*"
+              onChange={handleCameraCapture}
+              hidden
+            />
+          </div>
 
           {inputValue && filteredSuggestions.length > 0 && (
             <div className="mt-2 bg-cocktail-dark rounded border border-cocktail-gold max-h-40 overflow-y-auto">
