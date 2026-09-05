@@ -9,7 +9,7 @@ export default function AdvancedFilter() {
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
   const [searched, setSearched] = useState(false);
-  const [useAI, setUseAI] = useState(false);
+  const [useAI, setUseAI] = useState(true);
 
   const bases = getAllBases().sort();
 
@@ -117,19 +117,6 @@ export default function AdvancedFilter() {
               placeholder="e.g., sweet, not sour, fruity, refreshing, light, strong..."
               className="w-full px-4 py-2 rounded bg-cocktail-dark border border-cocktail-gold text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cocktail-gold resize-none h-20"
             />
-          </div>
-
-          <div className="flex items-center gap-2">
-            <input
-              type="checkbox"
-              id="useAI"
-              checked={useAI}
-              onChange={(e) => setUseAI(e.target.checked)}
-              className="w-4 h-4"
-            />
-            <label htmlFor="useAI" className="text-cocktail-light text-sm">
-              Use AI for smarter matching (requires API key)
-            </label>
           </div>
 
           <button
