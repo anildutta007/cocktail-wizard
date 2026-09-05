@@ -11,6 +11,8 @@ export default function RecipeSearch() {
   const [results, setResults] = useState([]);
   const [selectedCocktail, setSelectedCocktail] = useState(null);
   const [searched, setSearched] = useState(false);
+  const [cocktailDropdownOpen, setcocktailDropdownOpen] = useState(false);
+  const [cocktailSearchQuery, setCocktailSearchQuery] = useState('');
 
   useEffect(() => {
     const bases = getAllBases().sort();
@@ -108,28 +110,50 @@ export default function RecipeSearch() {
 
           <div>
             <label className="block text-cocktail-gold font-semibold mb-2">Available Cocktails</label>
-            <select
-              onChange={(e) => {
-                if (e.target.value) {
-                  const cocktailId = parseInt(e.target.value);
-                  const cocktail = availableCocktails.find(c => c.id === cocktailId);
-                  if (cocktail) {
-                    handleSelectCocktailFromDropdown(cocktail);
-                  }
-                  e.target.value = '';
-                }
-              }}
-              className="w-full px-4 py-2 rounded bg-cocktail-dark border border-cocktail-gold text-white focus:outline-none focus:ring-2 focus:ring-cocktail-gold"
-            >
-              <option value="">
-                Select a {selectedBase === 'all' ? 'cocktail' : selectedBase} drink...
-              </option>
-              {availableCocktails.map(cocktail => (
-                <option key={cocktail.id} value={cocktail.id.toString()} className="bg-cocktail-dark">
-                  {cocktail.name}
-                </option>
-              ))}
-            </select>
+            <div className="relative">
+              {/* Dropdown Input */}
+              <input
+                type="text"
+                placeholder={`Search a {selectedBase === 'all' ? 'cocktail' : selectedBase} drink...`}
+                value={cocktailSearchQuery}
+                onChange={(e) => {
+                  setCocktailSearchQuery(e.target.value);
+                  setcocktailDropdownOpen(true);
+                }}
+                onFocus={() => setcocktailDropdownOpen(true)}
+                className="w-full px-4 py-2 rounded bg-cocktail-dark border border-cocktail-gold text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cocktail-gold"
+              />
+
+              {/* Dropdown List */}
+              {cocktailDropdownOpen && (
+                <div className="absolute top-full left-0 right-0 mt-1 bg-cocktail-dark border border-cocktail-gold rounded max-h-64 overflow-y-auto z-50">
+                  {availableCocktails
+                    .filter(c =>
+                      c.name.toLowerCase().includes(cocktailSearchQuery.toLowerCase())
+                    )
+                    .map(cocktail => (
+                      <button
+                        key={cocktail.id}
+                        onClick={() => {
+                          handleSelectCocktailFromDropdown(cocktail);
+                          setcocktailDropdownOpen(false);
+                          setCocktailSearchQuery('');
+                        }}
+                        className="w-full text-left px-4 py-2 hover:bg-cocktail-purple text-cocktail-light transition border-b border-cocktail-gold last:border-b-0"
+                      >
+                        {cocktail.name}
+                      </button>
+                    ))}
+                  {availableCocktails.filter(c =>
+                    c.name.toLowerCase().includes(cocktailSearchQuery.toLowerCase())
+                  ).length === 0 && (
+                    <div className="px-4 py-2 text-gray-400 text-center">
+                      No cocktails found
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
             {availableCocktails.length > 0 && (
               <p className="text-xs text-gray-400 mt-1">
                 {availableCocktails.length} cocktail{availableCocktails.length !== 1 ? 's' : ''} available
