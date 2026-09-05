@@ -7,23 +7,23 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 3/4 shot"
+          "amount": 2.75,
+          "unit": "shot"
         },
         {
           "name": "Grand Marnier",
-          "amount": 1,
-          "unit": "1 Shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Lemon Juice",
-          "amount": 1,
-          "unit": "1/4 Shot"
+          "amount": 1.25,
+          "unit": "shot"
         },
         {
           "name": "Grenadine",
-          "amount": 1,
-          "unit": "1/8 Shot"
+          "amount": 1.125,
+          "unit": "shot"
         }
       ],
       "instructions": "Pour all ingredients into a cocktail shaker, mix and serve over ice into a chilled glass.",
@@ -38,28 +38,28 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 2,
-          "unit": "2 shots"
+          "amount": 4,
+          "unit": "shots"
         },
         {
           "name": "Grenadine",
-          "amount": 1,
-          "unit": "1/2 shot"
+          "amount": 1.5,
+          "unit": "shot"
         },
         {
           "name": "Heavy cream",
-          "amount": 1,
-          "unit": "1/2 shot"
+          "amount": 1.5,
+          "unit": "shot"
         },
         {
           "name": "Milk",
-          "amount": 1,
-          "unit": "1/2 shot"
+          "amount": 1.5,
+          "unit": "shot"
         },
         {
           "name": "Egg White",
-          "amount": 1,
-          "unit": "1/2 Fresh"
+          "amount": 1.5,
+          "unit": "fresh"
         }
       ],
       "instructions": "Shake all the ingredients in a cocktail shaker and ice then strain in a cold glass.",
@@ -74,18 +74,18 @@
       "ingredients": [
         {
           "name": "Amaretto",
-          "amount": 1,
-          "unit": "1/3"
+          "amount": 1.3333333333333333,
+          "unit": "unit"
         },
         {
           "name": "Baileys irish cream",
-          "amount": 1,
-          "unit": "1/3"
+          "amount": 1.3333333333333333,
+          "unit": "unit"
         },
         {
           "name": "Cognac",
-          "amount": 1,
-          "unit": "1/3"
+          "amount": 1.3333333333333333,
+          "unit": "unit"
         }
       ],
       "instructions": "Layered in a shot glass.",
@@ -100,13 +100,13 @@
       "ingredients": [
         {
           "name": "151 proof rum",
-          "amount": 1,
-          "unit": "1 oz Bacardi"
+          "amount": 2,
+          "unit": "oz bacardi"
         },
         {
           "name": "Wild Turkey",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Poor in the 151 first followed by the 101 served with a Coke or Dr Pepper chaser.",
@@ -121,18 +121,18 @@
       "ingredients": [
         {
           "name": "Dark rum",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Grenadine",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         }
       ],
       "instructions": "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
@@ -147,18 +147,18 @@
       "ingredients": [
         {
           "name": "Absolut Vodka",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Tonic water",
-          "amount": 4,
-          "unit": "4 oz"
+          "amount": 8,
+          "unit": "oz"
         }
       ],
       "instructions": "Pour Vodka and Gin over ice, add Tonic and Stir",
@@ -173,13 +173,13 @@
       "ingredients": [
         {
           "name": "Applejack",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Grapefruit juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Shake ingredients with ice, strain into a cocktail glass, and serve.",
@@ -194,13 +194,13 @@
       "ingredients": [
         {
           "name": "Coffee",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         },
         {
           "name": "Grain alcohol",
-          "amount": 2,
-          "unit": "2 parts"
+          "amount": 4,
+          "unit": "parts"
         }
       ],
       "instructions": "Put a copper coin in a coffe-cup and fill up with coffee until you no longer see the coin, then add alcohol until you see the coin. Norwegian speciality.",
@@ -243,28 +243,28 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Maraschino liqueur",
-          "amount": 1,
-          "unit": "1/4 tsp"
+          "amount": 1.25,
+          "unit": "tsp"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1/4 tsp"
+          "amount": 1.25,
+          "unit": "tsp"
         },
         {
           "name": "Orange bitters",
-          "amount": 2,
-          "unit": "2 dashes"
+          "amount": 4,
+          "unit": "dashes"
         },
         {
           "name": "Cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Pour all ingredients into shaker with ice cubes. Shake well. Strain into chilled cocktail glass. Garnish with a lemon twist and a maraschino cherry. Serve without a straw.",
@@ -281,18 +281,18 @@
       "ingredients": [
         {
           "name": "Strawberry schnapps",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Orange juice",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Cranberry juice",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Club soda",
@@ -315,13 +315,13 @@
       "ingredients": [
         {
           "name": "Beer",
-          "amount": 12,
-          "unit": "12 oz"
+          "amount": 24,
+          "unit": "oz"
         },
         {
           "name": "7-Up",
-          "amount": 12,
-          "unit": "12 oz"
+          "amount": 24,
+          "unit": "oz"
         }
       ],
       "instructions": "Pour beer into large mug, slowly add the 7-up (or Sprite).",
@@ -336,13 +336,13 @@
       "ingredients": [
         {
           "name": "Grape Soda",
-          "amount": 3,
-          "unit": "3 oz"
+          "amount": 6,
+          "unit": "oz"
         },
         {
           "name": "Tequila",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         }
       ],
       "instructions": "Stir together and serve over ice.",
@@ -357,28 +357,28 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Triple sec",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Grenadine",
-          "amount": 1,
-          "unit": "1/2 tsp"
+          "amount": 1.5,
+          "unit": "tsp"
         },
         {
           "name": "Egg white",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a sour glass.",
@@ -400,8 +400,8 @@
         },
         {
           "name": "Orange juice",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         }
       ],
       "instructions": "Ensure both ingredients are well chilled, then mix into the glass. Serve cold.",
@@ -416,23 +416,23 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 3,
-          "unit": "3 parts"
+          "amount": 6,
+          "unit": "parts"
         },
         {
           "name": "Pisang Ambon",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         },
         {
           "name": "Apple juice",
-          "amount": 6,
-          "unit": "6 parts"
+          "amount": 12,
+          "unit": "parts"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1 1/2 part"
+          "amount": 2.5,
+          "unit": "part"
         },
         {
           "name": "Lemonade",
@@ -455,23 +455,23 @@
       "ingredients": [
         {
           "name": "Orange juice",
-          "amount": 4,
-          "unit": "4 cl"
+          "amount": 8,
+          "unit": "cl"
         },
         {
           "name": "Grapefruit juice",
-          "amount": 3,
-          "unit": "3 cl"
+          "amount": 6,
+          "unit": "cl"
         },
         {
           "name": "Apple juice",
-          "amount": 1,
-          "unit": "1 cl"
+          "amount": 2,
+          "unit": "cl"
         },
         {
           "name": "Maraschino cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Stirr. Grnish with maraschino cherry.",
@@ -486,28 +486,28 @@
       "ingredients": [
         {
           "name": "Creme de Cacao",
-          "amount": 1,
-          "unit": "1/2 oz white"
+          "amount": 1.5,
+          "unit": "oz white"
         },
         {
           "name": "Amaretto",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Triple sec",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Light cream",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Shake all ingredients with ice, strain into a chilled cocktail glass, and serve.",
@@ -527,13 +527,13 @@
         },
         {
           "name": "Brown sugar",
-          "amount": 2,
-          "unit": "2 tsp"
+          "amount": 4,
+          "unit": "tsp"
         },
         {
           "name": "Passion fruit juice",
-          "amount": 4,
-          "unit": "4 cl"
+          "amount": 8,
+          "unit": "cl"
         },
         {
           "name": "Ginger ale",
@@ -562,8 +562,8 @@
       "ingredients": [
         {
           "name": "Sambuca",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Root beer",
@@ -588,23 +588,23 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 4,
-          "unit": "4 cl"
+          "amount": 8,
+          "unit": "cl"
         },
         {
           "name": "lemon juice",
-          "amount": 1.5,
-          "unit": "1.5 cl"
+          "amount": 1,
+          "unit": ".5 1.5 cl"
         },
         {
           "name": "Sugar syrup",
-          "amount": 1,
-          "unit": "1 cl"
+          "amount": 2,
+          "unit": "cl"
         },
         {
           "name": "Creme de Mure",
-          "amount": 1.5,
-          "unit": "1.5 cl"
+          "amount": 1,
+          "unit": ".5 1.5 cl"
         }
       ],
       "instructions": "Fill glass with crushed ice. Build gin, lemon juice and simple syrup over. Stir, and then pour blackberry liqueur over in a circular fashion to create marbling effect. Garnish with two blackberries and lemon slice.",
@@ -623,33 +623,33 @@
       "ingredients": [
         {
           "name": "Ricard",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1/2 tsp superfine"
+          "amount": 1.5,
+          "unit": "tsp superfine"
         },
         {
           "name": "Peychaud bitters",
-          "amount": 2,
-          "unit": "2 dashes"
+          "amount": 4,
+          "unit": "dashes"
         },
         {
           "name": "Water",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Bourbon",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Lemon peel",
-          "amount": 1,
-          "unit": "1 twist of"
+          "amount": 2,
+          "unit": "twist of"
         }
       ],
       "instructions": "Rinse a chilled old-fashioned glass with the absinthe, add crushed ice, and set it aside. Stir the remaining ingredients over ice and set it aside. Discard the ice and any excess absinthe from the prepared glass, and strain the drink into the glass. Add the lemon peel for garnish.",
@@ -666,18 +666,18 @@
       "ingredients": [
         {
           "name": "Dark rum",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Kahlua",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Egg white",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
@@ -692,13 +692,13 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 1/2 shot"
+          "amount": 2.5,
+          "unit": "shot"
         },
         {
           "name": "Vermouth",
-          "amount": 1,
-          "unit": "1 1/2 shot"
+          "amount": 2.5,
+          "unit": "shot"
         }
       ],
       "instructions": "Shake together all the ingredients and strain into a cold glass.",
@@ -713,33 +713,33 @@
       "ingredients": [
         {
           "name": "Tequila",
-          "amount": 6,
-          "unit": "6 cl"
+          "amount": 12,
+          "unit": "cl"
         },
         {
           "name": "Tomato Juice",
-          "amount": 3,
-          "unit": "3 cl"
+          "amount": 6,
+          "unit": "cl"
         },
         {
           "name": "Orange Juice",
-          "amount": 3,
-          "unit": "3 cl"
+          "amount": 6,
+          "unit": "cl"
         },
         {
           "name": "Lime Juice",
-          "amount": 1.5,
-          "unit": "1.5 cl"
+          "amount": 1,
+          "unit": ".5 1.5 cl"
         },
         {
           "name": "Sugar Syrup",
-          "amount": 1,
-          "unit": "1 dash"
+          "amount": 2,
+          "unit": "dash"
         },
         {
           "name": "Salt",
-          "amount": 1,
-          "unit": "1 pinch"
+          "amount": 2,
+          "unit": "pinch"
         }
       ],
       "instructions": "Vampiros may be made in a tall glass or an old fashioned glass. Bartenders may first \"rim\" the glass with Kosher Salt, which is done by placing a layer of Kosher Salt on a chopping board, moistening the glass' rim with lime juice or water, and then placing the upside down glass rim onto the Kosher Salt, so that the salt sticks to the moistened rim. The second step is to fill half the glass with ice and add one or two shooter glasses full of high quality Tequila. The next stage is to add the flavouring elements. This is done by squeezing a fresh lime into the glass, adding a few grains of salt, adding citrus-flavoured soda pop, until the glass is 4/5 full, and then adding spicy Viuda de Sanchez (or orange juice, lime juice and pico de gallo). The final step is to stir the ingredients so that the flavours are properly blended.",
@@ -758,18 +758,18 @@
       "ingredients": [
         {
           "name": "Kahlua",
-          "amount": 1,
-          "unit": "1/3 shot"
+          "amount": 1.3333333333333333,
+          "unit": "shot"
         },
         {
           "name": "Sambuca",
-          "amount": 1,
-          "unit": "1/3 shot"
+          "amount": 1.3333333333333333,
+          "unit": "shot"
         },
         {
           "name": "Grand Marnier",
-          "amount": 1,
-          "unit": "1/3 shot"
+          "amount": 1.3333333333333333,
+          "unit": "shot"
         }
       ],
       "instructions": "Layer the Kahlua, Sambucca and Grand Marnier into a shot glas in that order. Better than B-52",
@@ -784,18 +784,18 @@
       "ingredients": [
         {
           "name": "Baileys irish cream",
-          "amount": 1,
-          "unit": "1/3"
+          "amount": 1.3333333333333333,
+          "unit": "unit"
         },
         {
           "name": "Grand Marnier",
-          "amount": 1,
-          "unit": "1/3"
+          "amount": 1.3333333333333333,
+          "unit": "unit"
         },
         {
           "name": "Kahlua",
-          "amount": 1,
-          "unit": "1/4"
+          "amount": 1.25,
+          "unit": "unit"
         }
       ],
       "instructions": "Layer ingredients into a shot glass. Serve with a stirrer.",
@@ -810,18 +810,18 @@
       "ingredients": [
         {
           "name": "gin",
-          "amount": 6,
-          "unit": "6 cl"
+          "amount": 12,
+          "unit": "cl"
         },
         {
           "name": "Peach Bitters",
-          "amount": 2,
-          "unit": "2 dashes"
+          "amount": 4,
+          "unit": "dashes"
         },
         {
           "name": "Mint",
-          "amount": 2,
-          "unit": "2 Fresh leaves"
+          "amount": 4,
+          "unit": "fresh leaves"
         }
       ],
       "instructions": "Pour all ingredients into a mixing glass with ice. Stir. Strain into a cocktail glass. Garnish with a sprig of fresh mint in the drink.",
@@ -838,23 +838,23 @@
       "ingredients": [
         {
           "name": "Orange Bitters",
-          "amount": 1,
-          "unit": "1 dash"
+          "amount": 2,
+          "unit": "dash"
         },
         {
           "name": "Green Chartreuse",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Sweet Vermouth",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Stir in mixing glass with ice and strain\r\n",
@@ -869,38 +869,38 @@
       "ingredients": [
         {
           "name": "Rum",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Gold rum",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "151 proof rum",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Pernod",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Grenadine",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Lime Juice",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Angostura Bitters",
-          "amount": 1,
-          "unit": "1 drop"
+          "amount": 2,
+          "unit": "drop"
         }
       ],
       "instructions": "Blend at high speed for no more than 5 seconds.\n\nPour into a glass, add ice cubes to fill, then add the garnish.\n\n*Donn’s mix: Bring 3 crushed cinnamon sticks, 1 cup of sugar and 1 cup of water to a boil, stirring until the sugar is dissolved.\n\nSimmer for 2 minutes, then remove from the heat and let sit for at least 2 hours before straining into a clean glass bottle.\n\nThen add 1 part of the syrup and 2 parts of fresh grapefruit juice together.",
@@ -919,18 +919,18 @@
       "ingredients": [
         {
           "name": "Dark rum",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Peach nectar",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Orange juice",
-          "amount": 3,
-          "unit": "3 oz"
+          "amount": 6,
+          "unit": "oz"
         }
       ],
       "instructions": "Pour all of the ingredients into a highball glass almost filled with ice cubes. Stir well.",
@@ -945,13 +945,13 @@
       "ingredients": [
         {
           "name": "Irish cream",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Goldschlager",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         }
       ],
       "instructions": "Pour ingredients into 1 ounce shot glass",
@@ -966,13 +966,13 @@
       "ingredients": [
         {
           "name": "Champagne",
-          "amount": 6,
-          "unit": "6 oz"
+          "amount": 12,
+          "unit": "oz"
         },
         {
           "name": "Peach schnapps",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Pour peach purée into chilled flute, add sparkling wine. Stir gently.",
@@ -987,28 +987,28 @@
       "ingredients": [
         {
           "name": "Rye Whiskey",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Dry Vermouth",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Maraschino Liqueur",
-          "amount": 1,
-          "unit": "1/4 oz"
+          "amount": 1.25,
+          "unit": "oz"
         },
         {
           "name": "Angostura Bitters",
-          "amount": 3,
-          "unit": "3 dashes"
+          "amount": 6,
+          "unit": "dashes"
         },
         {
           "name": "Maraschino Cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Combine ingredients with ice and stir until well-chilled. Strain into a chilled cocktail glass.",
@@ -1023,23 +1023,23 @@
       "ingredients": [
         {
           "name": "Scotch",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Sweet Vermouth",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Dry Vermouth",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Bitters",
-          "amount": 2,
-          "unit": "2 dashes"
+          "amount": 4,
+          "unit": "dashes"
         }
       ],
       "instructions": "In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass.",
@@ -1054,18 +1054,18 @@
       "ingredients": [
         {
           "name": "Advocaat",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Lemonade",
-          "amount": 8,
-          "unit": "8-10 oz cold"
+          "amount": 16,
+          "unit": "-10 oz cold"
         },
         {
           "name": "Lemon",
-          "amount": 1,
-          "unit": "1 slice"
+          "amount": 2,
+          "unit": "slice"
         },
         {
           "name": "Ice",
@@ -1087,13 +1087,13 @@
       "ingredients": [
         {
           "name": "Coffee",
-          "amount": 3,
-          "unit": "3 parts"
+          "amount": 6,
+          "unit": "parts"
         },
         {
           "name": "Everclear",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         }
       ],
       "instructions": "pour it in and mix it.",
@@ -1108,33 +1108,33 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Triple sec",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Blue Curacao",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Bitters",
-          "amount": 2,
-          "unit": "2 dashes"
+          "amount": 4,
+          "unit": "dashes"
         },
         {
           "name": "Maraschino cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Lemon peel",
-          "amount": 1,
-          "unit": "1 twist of"
+          "amount": 2,
+          "unit": "twist of"
         }
       ],
       "instructions": "In a mixing glass half-filled with crushed ice, combine the gin, triple sec, Curacao, and bitters. Stir well. Strain into a cocktail glass and garnish with the lemon twist and the cherry.",
@@ -1188,28 +1188,28 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Orange Curacao",
-          "amount": 3,
-          "unit": "3/4 oz"
+          "amount": 3.75,
+          "unit": "oz"
         },
         {
           "name": "Lime Juice",
-          "amount": 3,
-          "unit": "3/4 oz"
+          "amount": 3.75,
+          "unit": "oz"
         },
         {
           "name": "Angostura Bitters",
-          "amount": 1,
-          "unit": "1 dash"
+          "amount": 2,
+          "unit": "dash"
         },
         {
           "name": "Orange Bitters",
-          "amount": 1,
-          "unit": "1 dash"
+          "amount": 2,
+          "unit": "dash"
         }
       ],
       "instructions": "Shake, strain, up, cocktail glass",
@@ -1224,28 +1224,28 @@
       "ingredients": [
         {
           "name": "White Rum",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Sugar Syrup",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Lime Juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Angostura Bitters",
-          "amount": 2,
-          "unit": "2 dashes"
+          "amount": 4,
+          "unit": "dashes"
         },
         {
           "name": "Prosecco",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         }
       ],
       "instructions": "Shake a handful of mint, 2oz white rum, 1oz of sugar syrup, 1oz lime juice and 2 dashes angostura bitters with ice. Double strain into a glass and top with 2oz of prosecco.",
@@ -1264,28 +1264,28 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Dry Vermouth",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Bitters",
-          "amount": 2,
-          "unit": "2 dashes"
+          "amount": 4,
+          "unit": "dashes"
         },
         {
           "name": "Maraschino liqueur",
-          "amount": 1,
-          "unit": "1/2 tsp"
+          "amount": 1.5,
+          "unit": "tsp"
         },
         {
           "name": "Maraschino cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "In a mixing glass half-filled with ice cubes, combine the gin, vermouth, bitters, and maraschino liqueur. Stir well. Strain into a cocktail glass and garnish with the cherry.",
@@ -1302,23 +1302,23 @@
       "ingredients": [
         {
           "name": "Rum",
-          "amount": 4.5,
-          "unit": "4.5 cl"
+          "amount": 4,
+          "unit": ".5 4.5 cl"
         },
         {
           "name": "Galliano",
-          "amount": 1.5,
-          "unit": "1.5 cl"
+          "amount": 1,
+          "unit": ".5 1.5 cl"
         },
         {
           "name": "Pineapple Juice",
-          "amount": 6,
-          "unit": "6 cl"
+          "amount": 12,
+          "unit": "cl"
         },
         {
           "name": "Lime Juice",
-          "amount": 1,
-          "unit": "1 dash"
+          "amount": 2,
+          "unit": "dash"
         },
         {
           "name": "Prosecco",
@@ -1338,23 +1338,23 @@
       "ingredients": [
         {
           "name": "Pineapple juice",
-          "amount": 10,
-          "unit": "10 cl"
+          "amount": 20,
+          "unit": "cl"
         },
         {
           "name": "Passion fruit juice",
-          "amount": 6,
-          "unit": "6 cl"
+          "amount": 12,
+          "unit": "cl"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1 cl"
+          "amount": 2,
+          "unit": "cl"
         },
         {
           "name": "Grenadine",
-          "amount": 1,
-          "unit": "1 cl"
+          "amount": 2,
+          "unit": "cl"
         }
       ],
       "instructions": "Prepare in a blender or shaker, serve in a highball glass on the rocks. Garnish with 1 slice of pineapple and one cherry.",
@@ -1371,18 +1371,18 @@
       "ingredients": [
         {
           "name": "Beer",
-          "amount": 3,
-          "unit": "3/4 bottle"
+          "amount": 3.75,
+          "unit": "bottle"
         },
         {
           "name": "Amaretto",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Orange juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Fill a pint glass almost full with beer. Then fill the rest with orange juice (careful not to fill it to the top). Then take the shot of Amaretto and drop it in.",
@@ -1399,23 +1399,23 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 2,
-          "unit": "2 jiggers"
+          "amount": 4,
+          "unit": "jiggers"
         },
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 jigger"
+          "amount": 2,
+          "unit": "jigger"
         },
         {
           "name": "Grenadine",
-          "amount": 3,
-          "unit": "3 dashes"
+          "amount": 6,
+          "unit": "dashes"
         },
         {
           "name": "Lime juice",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Sugar",
@@ -1424,8 +1424,8 @@
         },
         {
           "name": "Sugar syrup",
-          "amount": 3,
-          "unit": "3 dashes"
+          "amount": 6,
+          "unit": "dashes"
         },
         {
           "name": "Soda water",
@@ -1445,18 +1445,18 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Sweet Vermouth",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Brandy",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         }
       ],
       "instructions": "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -1471,18 +1471,18 @@
       "ingredients": [
         {
           "name": "Brandy",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Amaretto",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Light cream",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Shake all ingredients well with cracked ice, strain into a cocktail glass, and serve.",
@@ -1497,18 +1497,18 @@
       "ingredients": [
         {
           "name": "Cognac",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Cointreau",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Pour all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass.",
@@ -1523,33 +1523,33 @@
       "ingredients": [
         {
           "name": "Light rum",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Triple sec",
-          "amount": 1,
-          "unit": "1 1/2 tsp"
+          "amount": 2.5,
+          "unit": "tsp"
         },
         {
           "name": "Lime juice",
-          "amount": 1,
-          "unit": "1 tblsp"
+          "amount": 2,
+          "unit": "tblsp"
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Egg white",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Mint",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Combine and shake all ingredients (except mint) with ice and strain into an old-fashioned glass over ice cubes. Add the sprig of mint and serve.",
@@ -1566,13 +1566,13 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Iced tea",
-          "amount": 6,
-          "unit": "6 oz"
+          "amount": 12,
+          "unit": "oz"
         },
         {
           "name": "Lemon juice",
@@ -1594,18 +1594,18 @@
       "ingredients": [
         {
           "name": "Applejack",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Triple sec",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -1620,28 +1620,28 @@
       "ingredients": [
         {
           "name": "Sugar",
-          "amount": 60,
-          "unit": "60 ml"
+          "amount": 120,
+          "unit": "ml"
         },
         {
           "name": "Allspice",
-          "amount": 1,
-          "unit": "1 tblsp"
+          "amount": 2,
+          "unit": "tblsp"
         },
         {
           "name": "Rum",
-          "amount": 20,
-          "unit": "20 cl"
+          "amount": 40,
+          "unit": "cl"
         },
         {
           "name": "Lime Juice",
-          "amount": 90,
-          "unit": "90 ml"
+          "amount": 180,
+          "unit": "ml"
         },
         {
           "name": "Champagne",
-          "amount": 6,
-          "unit": "6 cl"
+          "amount": 12,
+          "unit": "cl"
         },
         {
           "name": "Orange spiral",
@@ -1664,18 +1664,18 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Amaretto",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Heavy cream",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Shake all ingredients well with cracked ice, strain into a champagne flute, and serve.",
@@ -1690,13 +1690,13 @@
       "ingredients": [
         {
           "name": "Corona",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Bacardi Limon",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         }
       ],
       "instructions": "Pour the corona into an 18oz beer glass pour the bacardi limon into the beer stir very gently",
@@ -1711,18 +1711,18 @@
       "ingredients": [
         {
           "name": "Jack Daniels",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Midori melon liqueur",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Sour mix",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         }
       ],
       "instructions": "Add all ingredients into mixing glass, chill and strain into cocktail glass",
@@ -1737,13 +1737,13 @@
       "ingredients": [
         {
           "name": "Campari",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Sweet Vermouth",
-          "amount": 1,
-          "unit": "1 oz red"
+          "amount": 2,
+          "unit": "oz red"
         },
         {
           "name": "Lemon peel",
@@ -1770,33 +1770,33 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Sugar",
-          "amount": 2,
-          "unit": "2 tsp superfine"
+          "amount": 4,
+          "unit": "tsp superfine"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Champagne",
-          "amount": 4,
-          "unit": "4 oz Chilled"
+          "amount": 8,
+          "unit": "oz chilled"
         },
         {
           "name": "Orange",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Maraschino cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Combine gin, sugar, and lemon juice in a cocktail shaker filled with ice. Shake vigorously and strain into a chilled champagne glass. Top up with Champagne. Stir gently.",
@@ -1814,18 +1814,18 @@
       "ingredients": [
         {
           "name": "Chocolate syrup",
-          "amount": 2,
-          "unit": "2 tblsp"
+          "amount": 4,
+          "unit": "tblsp"
         },
         {
           "name": "Milk",
-          "amount": 6,
-          "unit": "6 oz whole"
+          "amount": 12,
+          "unit": "oz whole"
         },
         {
           "name": "Soda water",
-          "amount": 6,
-          "unit": "6 oz"
+          "amount": 12,
+          "unit": "oz"
         }
       ],
       "instructions": "Mix syrup and milk in a fountain glass. Add soda water, serve with a straw.",
@@ -1842,18 +1842,18 @@
       "ingredients": [
         {
           "name": "Beer",
-          "amount": 4,
-          "unit": "4 oz"
+          "amount": 8,
+          "unit": "oz"
         },
         {
           "name": "Tomato Juice",
-          "amount": 4,
-          "unit": "4 oz"
+          "amount": 8,
+          "unit": "oz"
         },
         {
           "name": "Lime Juice",
-          "amount": 1,
-          "unit": "1 tblsp"
+          "amount": 2,
+          "unit": "tblsp"
         },
         {
           "name": "Hot Sauce",
@@ -1887,13 +1887,13 @@
       "ingredients": [
         {
           "name": "Crown Royal",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Kahlua",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Cream",
@@ -1923,13 +1923,13 @@
         },
         {
           "name": "Fruit punch",
-          "amount": 355,
-          "unit": "355 ml frozen"
+          "amount": 710,
+          "unit": "ml frozen"
         },
         {
           "name": "Orange juice",
-          "amount": 355,
-          "unit": "355 ml frozen"
+          "amount": 710,
+          "unit": "ml frozen"
         },
         {
           "name": "Ice",
@@ -1949,13 +1949,13 @@
       "ingredients": [
         {
           "name": "Whisky",
-          "amount": 4,
-          "unit": "4 cl"
+          "amount": 8,
+          "unit": "cl"
         },
         {
           "name": "Baileys irish cream",
-          "amount": 8,
-          "unit": "8 cl"
+          "amount": 16,
+          "unit": "cl"
         },
         {
           "name": "Coffee",
@@ -1975,18 +1975,18 @@
       "ingredients": [
         {
           "name": "Lager",
-          "amount": 1,
-          "unit": "1/2 pint"
+          "amount": 1.5,
+          "unit": "pint"
         },
         {
           "name": "Cider",
-          "amount": 1,
-          "unit": "1/2 pint"
+          "amount": 1.5,
+          "unit": "pint"
         },
         {
           "name": "Blackcurrant cordial",
-          "amount": 1,
-          "unit": "1 dash"
+          "amount": 2,
+          "unit": "dash"
         }
       ],
       "instructions": "Pour the lager first then add the blackcurrant cordial. Top up with the cider. The colour sholud be very dark approaching the colour of Guiness.",
@@ -2001,23 +2001,23 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Amaro Montenegro",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Ruby Port",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Blood Orange",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Angostura Bitters",
@@ -2049,8 +2049,8 @@
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1 tblsp"
+          "amount": 2,
+          "unit": "tblsp"
         },
         {
           "name": "Soda water",
@@ -2078,18 +2078,18 @@
       "ingredients": [
         {
           "name": "Rye whiskey",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Campari",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Dry Vermouth",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Chill cocktail glass. Add ingredients to a mixing glass, and fill 2/3 full with ice. Stir about 20 seconds. Empty cocktail glass and strain into the glass. Garnish with a twist of lemon peel.",
@@ -2106,8 +2106,8 @@
       "ingredients": [
         {
           "name": "Light rum",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Lime",
@@ -2116,8 +2116,8 @@
         },
         {
           "name": "Powdered sugar",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         }
       ],
       "instructions": "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass.",
@@ -2132,18 +2132,18 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 7,
-          "unit": "7 parts"
+          "amount": 14,
+          "unit": "parts"
         },
         {
           "name": "Apricot Brandy",
-          "amount": 4,
-          "unit": "4 parts"
+          "amount": 8,
+          "unit": "parts"
         },
         {
           "name": "Orange Juice",
-          "amount": 3,
-          "unit": "3 parts"
+          "amount": 6,
+          "unit": "parts"
         }
       ],
       "instructions": "Shake together over ice. Strain into cocktail glass and serve chilled.",
@@ -2158,18 +2158,18 @@
       "ingredients": [
         {
           "name": "Grapefruit juice",
-          "amount": 5,
-          "unit": "5 oz"
+          "amount": 10,
+          "unit": "oz"
         },
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Salt",
-          "amount": 1,
-          "unit": "1/4 tsp"
+          "amount": 1.25,
+          "unit": "tsp"
         }
       ],
       "instructions": "Pour all ingredients over ice cubes in a highball glass. Stir well and serve. (Vodka may be substituted for gin, if preferred.)",
@@ -2184,18 +2184,18 @@
       "ingredients": [
         {
           "name": "Lemon juice",
-          "amount": 5,
-          "unit": "5 cl"
+          "amount": 10,
+          "unit": "cl"
         },
         {
           "name": "Orange juice",
-          "amount": 15,
-          "unit": "15 cl"
+          "amount": 30,
+          "unit": "cl"
         },
         {
           "name": "Sugar syrup",
-          "amount": 2,
-          "unit": "2-3 cl"
+          "amount": 4,
+          "unit": "-3 cl"
         },
         {
           "name": "Soda water",
@@ -2218,18 +2218,18 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Creme de Cacao",
-          "amount": 1,
-          "unit": "1/2 oz white"
+          "amount": 1.5,
+          "unit": "oz white"
         },
         {
           "name": "Light cream",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Nutmeg",
@@ -2249,13 +2249,13 @@
       "ingredients": [
         {
           "name": "Sweet Vermouth",
-          "amount": 2,
-          "unit": "2 shots"
+          "amount": 4,
+          "unit": "shots"
         },
         {
           "name": "Dry Vermouth",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Soda Water",
@@ -2275,23 +2275,23 @@
       "ingredients": [
         {
           "name": "Rum",
-          "amount": 2,
-          "unit": "2 oz light or dark"
+          "amount": 4,
+          "unit": "oz light or dark"
         },
         {
           "name": "Powdered sugar",
-          "amount": 2,
-          "unit": "2 tsp"
+          "amount": 4,
+          "unit": "tsp"
         },
         {
           "name": "Lemon peel",
-          "amount": 1,
-          "unit": "1 twist of"
+          "amount": 2,
+          "unit": "twist of"
         },
         {
           "name": "Water",
-          "amount": 2,
-          "unit": "2 tsp"
+          "amount": 4,
+          "unit": "tsp"
         }
       ],
       "instructions": "Dissolve powdered sugar in water in an old-fashioned glass. Add rum and one ice cube and stir. Add the twist of lemon peel and serve.",
@@ -2308,23 +2308,23 @@
       "ingredients": [
         {
           "name": "Baileys irish cream",
-          "amount": 2,
-          "unit": "2/3 oz"
+          "amount": 2.6666666666666665,
+          "unit": "oz"
         },
         {
           "name": "Chambord raspberry liqueur",
-          "amount": 1,
-          "unit": "1/3 oz"
+          "amount": 1.3333333333333333,
+          "unit": "oz"
         },
         {
           "name": "Sugar syrup",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Sugar",
-          "amount": 2,
-          "unit": "2 pinches"
+          "amount": 4,
+          "unit": "pinches"
         }
       ],
       "instructions": "Coat the rim of a shot glass with sugar using sugar syrup to stick. Add the Chambord raspberry liqueur to the shot glass, and carefully layer the Baileys Irish Cream on top. Serve.",
@@ -2342,28 +2342,28 @@
       "ingredients": [
         {
           "name": "Dry Vermouth",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Apricot brandy",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1/2 tsp"
+          "amount": 1.5,
+          "unit": "tsp"
         },
         {
           "name": "Grenadine",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Powdered sugar",
@@ -2383,13 +2383,13 @@
       "ingredients": [
         {
           "name": "Peachtree schnapps",
-          "amount": 4,
-          "unit": "4 shots"
+          "amount": 8,
+          "unit": "shots"
         },
         {
           "name": "Surge",
-          "amount": 4,
-          "unit": "4 shots"
+          "amount": 8,
+          "unit": "shots"
         }
       ],
       "instructions": "Get a shot glass and pour in three shots of the schnapps. Do the same with the Surge Cola. Then down it like Scheetz would.",
@@ -2404,23 +2404,23 @@
       "ingredients": [
         {
           "name": "Rose",
-          "amount": 750,
-          "unit": "750 ml"
+          "amount": 1500,
+          "unit": "ml"
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1/2 cup"
+          "amount": 1.5,
+          "unit": "cup"
         },
         {
           "name": "Strawberries",
-          "amount": 8,
-          "unit": "8 oz"
+          "amount": 16,
+          "unit": "oz"
         },
         {
           "name": "Lemon Juice",
-          "amount": 2,
-          "unit": "2-3 oz"
+          "amount": 4,
+          "unit": "-3 oz"
         }
       ],
       "instructions": "Step 1\nPour rosé into a 13x9\" pan and freeze until almost solid (it won't completely solidify due to the alcohol), at least 6 hours.\n\nStep 2\nMeanwhile, bring sugar and ½ cup water to a boil in a medium saucepan; cook, stirring constantly, until sugar dissolves, about 3 minutes. Add strawberries, remove from heat, and let sit 30 minutes to infuse syrup with strawberry flavor. Strain through a fine-mesh sieve into a small bowl (do not press on solids); cover and chill until cold, about 30 minutes.\n\nStep 3\nScrape rosé into a blender. Add lemon juice, 3½ ounces strawberry syrup, and 1 cup crushed ice and purée until smooth. Transfer blender jar to freezer and freeze until frosé is thickened (aim for milkshake consistency), 25–35 minutes.\n\nStep 4\nBlend again until frosé is slushy. Divide among glasses.\n\nStep 5\nDo Ahead: Rosé can be frozen 1 week ahead.",
@@ -2487,18 +2487,18 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 6,
-          "unit": "6 cl"
+          "amount": 12,
+          "unit": "cl"
         },
         {
           "name": "Vodka",
-          "amount": 1.5,
-          "unit": "1.5 cl"
+          "amount": 1,
+          "unit": ".5 1.5 cl"
         },
         {
           "name": "Lillet Blanc",
-          "amount": 0.75,
-          "unit": "0.75 cl"
+          "amount": 0,
+          "unit": ".75 0.75 cl"
         }
       ],
       "instructions": "Shake over ice until well chilled, then strain into a deep goblet and garnish with a thin slice of lemon peel.",
@@ -2515,23 +2515,23 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 2,
-          "unit": "2 1/2 oz"
+          "amount": 4.5,
+          "unit": "oz"
         },
         {
           "name": "Lime Juice",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Sugar Syrup",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Lime",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Add all the ingredients to a shaker and fill with ice.\r\n\r\nShake, and strain into a chilled cocktail glass or an Old Fashioned glass filled with fresh ice.\r\n\r\nGarnish with a lime wheel.",
@@ -2549,13 +2549,13 @@
       "ingredients": [
         {
           "name": "Dark rum",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Cherry brandy",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         }
       ],
       "instructions": "Pour the rum and cherry brandy into an old-fashioned glass almost filled with ice cubes. Stir well.",
@@ -2570,13 +2570,13 @@
       "ingredients": [
         {
           "name": "Brandy",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "White Creme de Menthe",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         }
       ],
       "instructions": "Pour in a mixing glass with ice, stir and strain into a cocktail glass. May also be served on rocks in a rocks glass.",
@@ -2591,13 +2591,13 @@
       "ingredients": [
         {
           "name": "Light rum",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Sweet Vermouth",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Lemon",
@@ -2606,13 +2606,13 @@
         },
         {
           "name": "Powdered sugar",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Egg white",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Shake all ingredients with ice, strain into an old-fashioned glass over ice cubes, and serve.",
@@ -2627,18 +2627,18 @@
       "ingredients": [
         {
           "name": "Coffee",
-          "amount": 1,
-          "unit": "1/2 cup black"
+          "amount": 1.5,
+          "unit": "cup black"
         },
         {
           "name": "Milk",
-          "amount": 1,
-          "unit": "1/2 cup"
+          "amount": 1.5,
+          "unit": "cup"
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1-2 tsp"
+          "amount": 2,
+          "unit": "-2 tsp"
         }
       ],
       "instructions": "Mix together. Blend at highest blender speed for about 1 minute. Pour into a glass and drink with a straw. Notes: This works best if everything is cold (if you make fresh coffee, mix it with the milk and let it sit in the fridge for 1/2 hour. If it is not frothy, add more milk, or even just some more milk powder. The froth gradually turns to liquid at the bottom of the glass, so you will find that you can sit and drink this for about 1/2 hour, with more iced coffee continually appearing at the bottom. Very refreshing.",
@@ -2655,23 +2655,23 @@
       "ingredients": [
         {
           "name": "Scotch",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Sweet Vermouth",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Dry Vermouth",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Orange bitters",
-          "amount": 2,
-          "unit": "2 dashes"
+          "amount": 4,
+          "unit": "dashes"
         }
       ],
       "instructions": "In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass.",
@@ -2686,8 +2686,8 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Lemon",
@@ -2696,8 +2696,8 @@
         },
         {
           "name": "Powdered sugar",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Carbonated water",
@@ -2717,13 +2717,13 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 2,
-          "unit": "2 cl"
+          "amount": 4,
+          "unit": "cl"
         },
         {
           "name": "Creme de Banane",
-          "amount": 1,
-          "unit": "1 cl"
+          "amount": 2,
+          "unit": "cl"
         },
         {
           "name": "Orange juice",
@@ -2745,18 +2745,18 @@
       "ingredients": [
         {
           "name": "Fruit punch",
-          "amount": 2,
-          "unit": "2 part"
+          "amount": 4,
+          "unit": "part"
         },
         {
           "name": "Sprite",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         },
         {
           "name": "Tequila",
-          "amount": 2,
-          "unit": "2 shots"
+          "amount": 4,
+          "unit": "shots"
         },
         {
           "name": "151 proof rum",
@@ -2778,18 +2778,18 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Ginger ale",
-          "amount": 4,
-          "unit": "4 oz"
+          "amount": 8,
+          "unit": "oz"
         },
         {
           "name": "Lime",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "In a highball glass almost filled with ice cubes, combine the gin and ginger ale. Stir well. Garnish with the lime wedge.",
@@ -2806,13 +2806,13 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 4,
-          "unit": "4 cl"
+          "amount": 8,
+          "unit": "cl"
         },
         {
           "name": "Lime juice",
-          "amount": 1,
-          "unit": "1 dash"
+          "amount": 2,
+          "unit": "dash"
         },
         {
           "name": "Soda water",
@@ -2832,18 +2832,18 @@
       "ingredients": [
         {
           "name": "Amaretto",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Creme de Cacao",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Light cream",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         }
       ],
       "instructions": "Shake all ingredients with ice, strain into a chilled cocktail glass, and serve.",
@@ -2858,18 +2858,18 @@
       "ingredients": [
         {
           "name": "Grenadine",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         },
         {
           "name": "Orange juice",
-          "amount": 4,
-          "unit": "4 parts"
+          "amount": 8,
+          "unit": "parts"
         },
         {
           "name": "Pineapple juice",
-          "amount": 4,
-          "unit": "4 parts"
+          "amount": 8,
+          "unit": "parts"
         }
       ],
       "instructions": "Mix. Serve over ice.",
@@ -2884,13 +2884,13 @@
       "ingredients": [
         {
           "name": "Scotch",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Amaretto",
-          "amount": 3,
-          "unit": "3/4 oz"
+          "amount": 3.75,
+          "unit": "oz"
         }
       ],
       "instructions": "Pour all ingredients directly into old fashioned glass filled with ice cubes. Stir gently.",
@@ -2905,23 +2905,23 @@
       "ingredients": [
         {
           "name": "Kahlua",
-          "amount": 1,
-          "unit": "1 cl"
+          "amount": 2,
+          "unit": "cl"
         },
         {
           "name": "Baileys irish cream",
-          "amount": 1,
-          "unit": "1 cl"
+          "amount": 2,
+          "unit": "cl"
         },
         {
           "name": "Frangelico",
-          "amount": 1,
-          "unit": "1 1/2"
+          "amount": 2.5,
+          "unit": "unit"
         },
         {
           "name": "Coffee",
-          "amount": 4,
-          "unit": "4 cl hot"
+          "amount": 8,
+          "unit": "cl hot"
         },
         {
           "name": "Cream",
@@ -2946,13 +2946,13 @@
         },
         {
           "name": "Milk",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Triple sec",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Brandy",
@@ -2972,18 +2972,18 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Half-and-half",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Limeade",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Ice",
@@ -3036,18 +3036,18 @@
       "ingredients": [
         {
           "name": "Apricot brandy",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Apple brandy",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Shake all ingredients with ice and strain contents into a cocktail glass.",
@@ -3062,18 +3062,18 @@
       "ingredients": [
         {
           "name": "Kahlua",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         },
         {
           "name": "Midori melon liqueur",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         },
         {
           "name": "Baileys irish cream",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         }
       ],
       "instructions": "In a shot glass add 1/3 Kahlua first. Then 1/3 Miduri, topping it off with a 1/3 bailey's irish cream",
@@ -3088,33 +3088,33 @@
       "ingredients": [
         {
           "name": "Everclear",
-          "amount": 1,
-          "unit": "1 fifth"
+          "amount": 2,
+          "unit": "fifth"
         },
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 fifth Smirnoff red label"
+          "amount": 2,
+          "unit": "fifth smirnoff red label"
         },
         {
           "name": "Mountain Dew",
-          "amount": 2,
-          "unit": "2 L"
+          "amount": 4,
+          "unit": "l"
         },
         {
           "name": "Surge",
-          "amount": 2,
-          "unit": "2 L"
+          "amount": 4,
+          "unit": "l"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1 small bottle"
+          "amount": 2,
+          "unit": "small bottle"
         },
         {
           "name": "Rum",
-          "amount": 1,
-          "unit": "1 pint"
+          "amount": 2,
+          "unit": "pint"
         }
       ],
       "instructions": "Mix all ingredients together. Slowly and gently. Works best if ice is added to punch bowl and soda's are very cold.",
@@ -3129,18 +3129,18 @@
       "ingredients": [
         {
           "name": "Brandy",
-          "amount": 3,
-          "unit": "3 parts"
+          "amount": 6,
+          "unit": "parts"
         },
         {
           "name": "Port",
-          "amount": 9,
-          "unit": "9 parts"
+          "amount": 18,
+          "unit": "parts"
         },
         {
           "name": "Egg Yolk",
-          "amount": 2,
-          "unit": "2 parts"
+          "amount": 4,
+          "unit": "parts"
         }
       ],
       "instructions": "Shake ingredients together in a mixer with ice. Strain into glass, garnish and serve.",
@@ -3155,18 +3155,18 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Sweet and sour",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Egg",
-          "amount": 1,
-          "unit": "1 whole"
+          "amount": 2,
+          "unit": "whole"
         },
         {
           "name": "Coca-Cola",
@@ -3186,13 +3186,13 @@
       "ingredients": [
         {
           "name": "Blended whiskey",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Benedictine",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Lemon",
@@ -3206,13 +3206,13 @@
         },
         {
           "name": "Lemon",
-          "amount": 1,
-          "unit": "1 slice"
+          "amount": 2,
+          "unit": "slice"
         },
         {
           "name": "Lime",
-          "amount": 1,
-          "unit": "1 slice"
+          "amount": 2,
+          "unit": "slice"
         }
       ],
       "instructions": "Shake all ingredients (except slices of lemon and lime) with ice and strain into a whiskey sour glass. Decorate with the slices of lemon and lime and serve.",
@@ -3229,18 +3229,18 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1/3 part"
+          "amount": 1.3333333333333333,
+          "unit": "part"
         },
         {
           "name": "Grape soda",
-          "amount": 1,
-          "unit": "1/3 part"
+          "amount": 1.3333333333333333,
+          "unit": "part"
         },
         {
           "name": "Orange juice",
-          "amount": 1,
-          "unit": "1/3 part"
+          "amount": 1.3333333333333333,
+          "unit": "part"
         },
         {
           "name": "Ice",
@@ -3249,8 +3249,8 @@
         },
         {
           "name": "Candy",
-          "amount": 1,
-          "unit": "1 dash"
+          "amount": 2,
+          "unit": "dash"
         }
       ],
       "instructions": "Fill glass with ice and fish, add vodka, grape soda and orange juice. DO NOT STIR!!!!! Serve well chilled.",
@@ -3267,28 +3267,28 @@
       "ingredients": [
         {
           "name": "Yoghurt",
-          "amount": 1,
-          "unit": "1 cup fruit"
+          "amount": 2,
+          "unit": "cup fruit"
         },
         {
           "name": "Banana",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Orange juice",
-          "amount": 4,
-          "unit": "4 oz frozen"
+          "amount": 8,
+          "unit": "oz frozen"
         },
         {
           "name": "Fruit",
-          "amount": 1,
-          "unit": "1/2 piece textural"
+          "amount": 1.5,
+          "unit": "piece textural"
         },
         {
           "name": "Ice",
-          "amount": 6,
-          "unit": "6"
+          "amount": 12,
+          "unit": "unit"
         }
       ],
       "instructions": "Blend til smooth.",
@@ -3305,8 +3305,8 @@
       "ingredients": [
         {
           "name": "Galliano",
-          "amount": 2,
-          "unit": "2 1/2 shots"
+          "amount": 4.5,
+          "unit": "shots"
         },
         {
           "name": "Ginger ale",
@@ -3331,18 +3331,18 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Campari",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Sweet Vermouth",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Stir into glass over ice, garnish and serve.",
@@ -3357,23 +3357,23 @@
       "ingredients": [
         {
           "name": "Red wine",
-          "amount": 1,
-          "unit": "1 bottle"
+          "amount": 2,
+          "unit": "bottle"
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1/2 cup"
+          "amount": 1.5,
+          "unit": "cup"
         },
         {
           "name": "Orange juice",
-          "amount": 1,
-          "unit": "1 cup"
+          "amount": 2,
+          "unit": "cup"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1 cup"
+          "amount": 2,
+          "unit": "cup"
         },
         {
           "name": "Cloves",
@@ -3398,8 +3398,8 @@
       "ingredients": [
         {
           "name": "Peach Vodka",
-          "amount": 2,
-          "unit": "2-3 oz"
+          "amount": 4,
+          "unit": "-3 oz"
         },
         {
           "name": "Coca-Cola",
@@ -3419,13 +3419,13 @@
       "ingredients": [
         {
           "name": "Bitters",
-          "amount": 3,
-          "unit": "3 dashes"
+          "amount": 6,
+          "unit": "dashes"
         },
         {
           "name": "Gin",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         }
       ],
       "instructions": "Pour the bitters into a wine glass. Swirl the glass to coat the inside with the bitters, shake out the excess. Pour the gin into the glass. Do not add ice.",
@@ -3442,18 +3442,18 @@
       "ingredients": [
         {
           "name": "Jim Beam",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         },
         {
           "name": "Jack Daniels",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         },
         {
           "name": "Wild Turkey",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Pour one part Jack Daneils and one part Jim Beam into shot glass then float Wild Turkey on top.",
@@ -3468,28 +3468,28 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1/2 tsp superfine"
+          "amount": 1.5,
+          "unit": "tsp superfine"
         },
         {
           "name": "Orange",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Maraschino cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar. Shake well. Strain into a sour glass and garnish with the orange slice and the cherry.",
@@ -3507,18 +3507,18 @@
       "ingredients": [
         {
           "name": "Blended whiskey",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Dry Vermouth",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Pineapple juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Combine and shake all ingredients with ice, strain contents into a cocktail glass, and serve.",
@@ -3533,28 +3533,28 @@
       "ingredients": [
         {
           "name": "Dry Vermouth",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Bourbon",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Blackberry brandy",
-          "amount": 1,
-          "unit": "1 1/2 tsp"
+          "amount": 2.5,
+          "unit": "tsp"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1 1/2 tsp"
+          "amount": 2.5,
+          "unit": "tsp"
         },
         {
           "name": "Lemon peel",
-          "amount": 1,
-          "unit": "1 twist of"
+          "amount": 2,
+          "unit": "twist of"
         }
       ],
       "instructions": "Shake all ingredients (except lemon peel) with ice and strain into a cocktail glass. Top with the twist of lemon peel and serve.",
@@ -3571,13 +3571,13 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Grapefruit Juice",
-          "amount": 3,
-          "unit": "3 oz"
+          "amount": 6,
+          "unit": "oz"
         }
       ],
       "instructions": "Add the vodka to a Collins glass filled with ice.\nTop with grapefruit juice and stir.\n\n",
@@ -3595,18 +3595,18 @@
       "ingredients": [
         {
           "name": "Scotch",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Wine",
-          "amount": 1,
-          "unit": "1 oz Green Ginger"
+          "amount": 2,
+          "unit": "oz green ginger"
         },
         {
           "name": "Orange juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
@@ -3621,33 +3621,33 @@
       "ingredients": [
         {
           "name": "Red wine",
-          "amount": 1,
-          "unit": "1 L"
+          "amount": 2,
+          "unit": "l"
         },
         {
           "name": "Water",
-          "amount": 125,
-          "unit": "125 ml"
+          "amount": 250,
+          "unit": "ml"
         },
         {
           "name": "Sugar",
-          "amount": 60,
-          "unit": "60 gr"
+          "amount": 120,
+          "unit": "gr"
         },
         {
           "name": "Cinnamon",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Cloves",
-          "amount": 3,
-          "unit": "3"
+          "amount": 6,
+          "unit": "unit"
         },
         {
           "name": "Lemon peel",
-          "amount": 1,
-          "unit": "1 tblsp"
+          "amount": 2,
+          "unit": "tblsp"
         }
       ],
       "instructions": "Boil sugar and spices in water, leave in the water for 30 minutes. Strain the spiced water and mix with the wine. Heat slowly until short of boiling temperature. (To remove alcohol, let it boil for a while.) You may add lemon or orange juice to taste. Serve in irish coffee cup.",
@@ -3665,13 +3665,13 @@
       "ingredients": [
         {
           "name": "Sweet Vermouth",
-          "amount": 3,
-          "unit": "3/4 oz"
+          "amount": 3.75,
+          "unit": "oz"
         },
         {
           "name": "Bourbon",
-          "amount": 2,
-          "unit": "2 1/2 oz Blended"
+          "amount": 4.5,
+          "unit": "oz blended"
         },
         {
           "name": "Angostura bitters",
@@ -3680,18 +3680,18 @@
         },
         {
           "name": "Ice",
-          "amount": 2,
-          "unit": "2 or 3"
+          "amount": 4,
+          "unit": "or 3"
         },
         {
           "name": "Maraschino cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Orange peel",
-          "amount": 1,
-          "unit": "1 twist of"
+          "amount": 2,
+          "unit": "twist of"
         }
       ],
       "instructions": "Stirred over ice, strained into a chilled glass, garnished, and served up.",
@@ -3706,18 +3706,18 @@
       "ingredients": [
         {
           "name": "Dark Rum",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Campari",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Creme De Banane",
-          "amount": 1,
-          "unit": "1/2 shot"
+          "amount": 1.5,
+          "unit": "shot"
         },
         {
           "name": "Pineapple Juice",
@@ -3746,18 +3746,18 @@
       "ingredients": [
         {
           "name": "White Rum",
-          "amount": 6,
-          "unit": "6 cl"
+          "amount": 12,
+          "unit": "cl"
         },
         {
           "name": "Honey",
-          "amount": 2,
-          "unit": "2 cl"
+          "amount": 4,
+          "unit": "cl"
         },
         {
           "name": "Lemon Juice",
-          "amount": 2,
-          "unit": "2 cl"
+          "amount": 4,
+          "unit": "cl"
         }
       ],
       "instructions": "Shake ingredients with crushed ice\r\n",
@@ -3772,28 +3772,28 @@
       "ingredients": [
         {
           "name": "Whiskey",
-          "amount": 50,
-          "unit": "50 ml"
+          "amount": 100,
+          "unit": "ml"
         },
         {
           "name": "Honey",
-          "amount": 15,
-          "unit": "15 ml"
+          "amount": 30,
+          "unit": "ml"
         },
         {
           "name": "Cinnamon",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "lemon",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Cloves",
-          "amount": 2,
-          "unit": "2"
+          "amount": 4,
+          "unit": "unit"
         }
       ],
       "instructions": "STEP 1\r\nWhisk the whisky and honey together and split between 2 heatproof glasses. Add half of the cinnamon stick to each, then top up with 200ml boiling water.\r\n\r\nSTEP 2\r\nAdd a splash of lemon juice to each, then taste and add more to your preference. Finish each with a slice of lemon, studded with a clove, and serve immediately.",
@@ -3811,33 +3811,33 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Carbonated water",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1 cube"
+          "amount": 2,
+          "unit": "cube"
         },
         {
           "name": "Mint",
-          "amount": 4,
-          "unit": "4"
+          "amount": 8,
+          "unit": "unit"
         },
         {
           "name": "Orange",
-          "amount": 1,
-          "unit": "1 slice"
+          "amount": 2,
+          "unit": "slice"
         },
         {
           "name": "Cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Muddle sugar with carbonated water and mint sprigs in an old-fashioned glass. Add gin and 1 ice cube. Stir, add the orange slice and the cherry, and serve.",
@@ -3854,13 +3854,13 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Amaretto",
-          "amount": 3,
-          "unit": "3/4 oz"
+          "amount": 3.75,
+          "unit": "oz"
         }
       ],
       "instructions": "Pour vodka and amaretto into an old-fashioned glass over ice and serve.",
@@ -3875,23 +3875,23 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Wine",
-          "amount": 1,
-          "unit": "1 oz Green Ginger"
+          "amount": 2,
+          "unit": "oz green ginger"
         },
         {
           "name": "Benedictine",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Lime",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "In an old-fashioned glass almost filled with ice cubes, combine all of the ingredients. Stir well.",
@@ -3906,13 +3906,13 @@
       "ingredients": [
         {
           "name": "Jack Daniels",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Amaretto",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Serve over ice- Warning,Deadly!",
@@ -3927,28 +3927,28 @@
       "ingredients": [
         {
           "name": "Red wine",
-          "amount": 1,
-          "unit": "1 bottle"
+          "amount": 2,
+          "unit": "bottle"
         },
         {
           "name": "Lemon",
-          "amount": 2,
-          "unit": "2"
+          "amount": 4,
+          "unit": "unit"
         },
         {
           "name": "Orange juice",
-          "amount": 1,
-          "unit": "1 cup"
+          "amount": 2,
+          "unit": "cup"
         },
         {
           "name": "Orange",
-          "amount": 3,
-          "unit": "3"
+          "amount": 6,
+          "unit": "unit"
         },
         {
           "name": "Pineapple juice",
-          "amount": 1,
-          "unit": "1 cup"
+          "amount": 2,
+          "unit": "cup"
         }
       ],
       "instructions": "Combine all of the ingredients and pour over a block of ice.",
@@ -3963,13 +3963,13 @@
       "ingredients": [
         {
           "name": "Chambord raspberry liqueur",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Soda water",
@@ -3989,18 +3989,18 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 4,
-          "unit": "4cl"
+          "amount": 8,
+          "unit": "cl"
         },
         {
           "name": "Triple Sec",
-          "amount": 3,
-          "unit": "3cl"
+          "amount": 6,
+          "unit": "cl"
         },
         {
           "name": "Lemon Juice",
-          "amount": 2,
-          "unit": "2cl"
+          "amount": 4,
+          "unit": "cl"
         }
       ],
       "instructions": "Add all ingredients into cocktail shaker filled with ice. Shake well and strain into large cocktail glass.",
@@ -4015,13 +4015,13 @@
       "ingredients": [
         {
           "name": "Creme de Cassis",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         },
         {
           "name": "Champagne",
-          "amount": 5,
-          "unit": "5 parts"
+          "amount": 10,
+          "unit": "parts"
         }
       ],
       "instructions": "Add the crème de cassis to the bottom of the glass, then top up with wine.",
@@ -4036,8 +4036,8 @@
       "ingredients": [
         {
           "name": "Light rum",
-          "amount": 2,
-          "unit": "2-3 oz"
+          "amount": 4,
+          "unit": "-3 oz"
         },
         {
           "name": "Lime",
@@ -4046,13 +4046,13 @@
         },
         {
           "name": "Sugar",
-          "amount": 2,
-          "unit": "2 tsp"
+          "amount": 4,
+          "unit": "tsp"
         },
         {
           "name": "Mint",
-          "amount": 2,
-          "unit": "2-4"
+          "amount": 4,
+          "unit": "-4"
         },
         {
           "name": "Soda water",
@@ -4076,13 +4076,13 @@
       "ingredients": [
         {
           "name": "Prosecco",
-          "amount": 6,
-          "unit": "6 cl"
+          "amount": 12,
+          "unit": "cl"
         },
         {
           "name": "Campari",
-          "amount": 4,
-          "unit": "4 cl"
+          "amount": 8,
+          "unit": "cl"
         },
         {
           "name": "Soda Water",
@@ -4102,28 +4102,28 @@
       "ingredients": [
         {
           "name": "Light rum",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Orgeat syrup",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Triple sec",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Sweet and sour",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Shake all ingredients with ice. Strain into glass. Garnish and serve with straw.",
@@ -4138,18 +4138,18 @@
       "ingredients": [
         {
           "name": "Amaretto",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Creme de Cacao",
-          "amount": 1,
-          "unit": "1/2 oz white"
+          "amount": 1.5,
+          "unit": "oz white"
         },
         {
           "name": "Light cream",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         }
       ],
       "instructions": "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -4164,13 +4164,13 @@
       "ingredients": [
         {
           "name": "Blackberry brandy",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Anis",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "mix equal parts in pony glass-tastes just like a jelly bean!",
@@ -4185,23 +4185,23 @@
       "ingredients": [
         {
           "name": "Mint",
-          "amount": 4,
-          "unit": "4 fresh"
+          "amount": 8,
+          "unit": "fresh"
         },
         {
           "name": "Bourbon",
-          "amount": 2,
-          "unit": "2 1/2 oz"
+          "amount": 4.5,
+          "unit": "oz"
         },
         {
           "name": "Powdered sugar",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Water",
-          "amount": 2,
-          "unit": "2 tsp"
+          "amount": 4,
+          "unit": "tsp"
         }
       ],
       "instructions": "In a highball glass gently muddle the mint, sugar and water. Fill the glass with cracked ice, add Bourbon and stir well until the glass is well frosted. Garnish with a mint sprig.",
@@ -4218,23 +4218,23 @@
       "ingredients": [
         {
           "name": "Ginger",
-          "amount": 2,
-          "unit": "2 pieces"
+          "amount": 4,
+          "unit": "pieces"
         },
         {
           "name": "Water",
-          "amount": 1,
-          "unit": "1 gal"
+          "amount": 2,
+          "unit": "gal"
         },
         {
           "name": "Lemon",
-          "amount": 1,
-          "unit": "1 lb"
+          "amount": 2,
+          "unit": "lb"
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1 cup"
+          "amount": 2,
+          "unit": "cup"
         },
         {
           "name": "Cayenne pepper",
@@ -4257,18 +4257,18 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 2,
-          "unit": "2 cups"
+          "amount": 4,
+          "unit": "cups"
         },
         {
           "name": "Jello",
-          "amount": 3,
-          "unit": "3 packages"
+          "amount": 6,
+          "unit": "packages"
         },
         {
           "name": "Water",
-          "amount": 3,
-          "unit": "3 cups"
+          "amount": 6,
+          "unit": "cups"
         }
       ],
       "instructions": "Boil 3 cups of water then add jello. Mix jello and water until jello is completely disolved. Add the two cups of vodka and mix together. Pour mixture into plastic shot glasses and chill until firm. Then, eat away...",
@@ -4283,33 +4283,33 @@
       "ingredients": [
         {
           "name": "Bourbon",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1 tsp superfine"
+          "amount": 2,
+          "unit": "tsp superfine"
         },
         {
           "name": "Club soda",
-          "amount": 3,
-          "unit": "3 oz"
+          "amount": 6,
+          "unit": "oz"
         },
         {
           "name": "Maraschino cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Orange",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Pour all ingredients directly into highball glass filled with ice. Stir gently. Garnish. Add a dash of Angostura bitters.",
@@ -4326,13 +4326,13 @@
       "ingredients": [
         {
           "name": "Coffee liqueur",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Light rum",
-          "amount": 1,
-          "unit": "1 shot Jamaican"
+          "amount": 2,
+          "unit": "shot jamaican"
         },
         {
           "name": "Ice",
@@ -4357,28 +4357,28 @@
       "ingredients": [
         {
           "name": "Mint",
-          "amount": 1,
-          "unit": "1/2 handful"
+          "amount": 1.5,
+          "unit": "handful"
         },
         {
           "name": "Lemon juice",
-          "amount": 3,
-          "unit": "3 cl"
+          "amount": 6,
+          "unit": "cl"
         },
         {
           "name": "Dark rum",
-          "amount": 1,
-          "unit": "1/8 L Jamaican"
+          "amount": 1.125,
+          "unit": "l jamaican"
         },
         {
           "name": "Club soda",
-          "amount": 1,
-          "unit": "1/8 L"
+          "amount": 1.125,
+          "unit": "l"
         },
         {
           "name": "Angostura bitters",
-          "amount": 8,
-          "unit": "8 drops"
+          "amount": 16,
+          "unit": "drops"
         }
       ],
       "instructions": "Put mint with lemon juice in a glas, mash the mint with a spoon, ice, rum & fill up with club soda. Top it with Angostura.",
@@ -4397,13 +4397,13 @@
       "ingredients": [
         {
           "name": "Lime",
-          "amount": 3,
-          "unit": "3"
+          "amount": 6,
+          "unit": "unit"
         },
         {
           "name": "Mango",
-          "amount": 1,
-          "unit": "1 Fresh"
+          "amount": 2,
+          "unit": "fresh"
         },
         {
           "name": "Mint",
@@ -4412,8 +4412,8 @@
         },
         {
           "name": "White Rum",
-          "amount": 200,
-          "unit": "200 ml"
+          "amount": 400,
+          "unit": "ml"
         },
         {
           "name": "Ice",
@@ -4447,8 +4447,8 @@
       "ingredients": [
         {
           "name": "Blended whiskey",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Lemon",
@@ -4457,18 +4457,18 @@
         },
         {
           "name": "Powdered sugar",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Port",
-          "amount": 1,
-          "unit": "1 tblsp"
+          "amount": 2,
+          "unit": "tblsp"
         },
         {
           "name": "Egg white",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Carbonated water",
@@ -4488,8 +4488,8 @@
       "ingredients": [
         {
           "name": "Milk",
-          "amount": 2,
-          "unit": "2 cups"
+          "amount": 4,
+          "unit": "cups"
         },
         {
           "name": "Chocolate syrup",
@@ -4516,18 +4516,18 @@
       "ingredients": [
         {
           "name": "Rum",
-          "amount": 1,
-          "unit": "1/6 glass"
+          "amount": 1.1666666666666667,
+          "unit": "glass"
         },
         {
           "name": "Coffee",
-          "amount": 1,
-          "unit": "1/6 glass strong black"
+          "amount": 1.1666666666666667,
+          "unit": "glass strong black"
         },
         {
           "name": "Water",
-          "amount": 1,
-          "unit": "1/2 glass cold"
+          "amount": 1.5,
+          "unit": "glass cold"
         },
         {
           "name": "Whipped cream",
@@ -4547,18 +4547,18 @@
       "ingredients": [
         {
           "name": "Bourbon",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Raspberry syrup",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Mint",
-          "amount": 8,
-          "unit": "8"
+          "amount": 16,
+          "unit": "unit"
         }
       ],
       "instructions": "Softly muddle the mint leaves and raspberry syrup in the bottom of the cup. Add crushed ice and Bourbon to the cup and then stir. Top with more ice, garnish with a mint sprig.",
@@ -4577,18 +4577,18 @@
       "ingredients": [
         {
           "name": "Irish Whiskey",
-          "amount": 50,
-          "unit": "50 ml"
+          "amount": 100,
+          "unit": "ml"
         },
         {
           "name": "Amaretto",
-          "amount": 50,
-          "unit": "50 ml"
+          "amount": 100,
+          "unit": "ml"
         },
         {
           "name": "Cranberry Juice",
-          "amount": 4,
-          "unit": "4 oz"
+          "amount": 8,
+          "unit": "oz"
         }
       ],
       "instructions": "Fill glass with ice\nPour in The Irishman and Disaronno\nFill to the top with Cranberry Juice\nGarnish with a slice of lemon…Enjoy!",
@@ -4607,13 +4607,13 @@
       "ingredients": [
         {
           "name": "Dark Rum",
-          "amount": 2,
-          "unit": "2 shots"
+          "amount": 4,
+          "unit": "shots"
         },
         {
           "name": "Lime Juice",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Sugar",
@@ -4647,18 +4647,18 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Green Chartreuse",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Yellow Chartreuse",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         }
       ],
       "instructions": "In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass.",
@@ -4673,13 +4673,13 @@
       "ingredients": [
         {
           "name": "Apple brandy",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Grenadine",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Lime",
@@ -4699,23 +4699,23 @@
       "ingredients": [
         {
           "name": "Ice",
-          "amount": 4,
-          "unit": "4-5"
+          "amount": 8,
+          "unit": "-5"
         },
         {
           "name": "Tennessee whiskey",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Vanilla extract",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Coca-Cola",
-          "amount": 10,
-          "unit": "10-12 oz"
+          "amount": 20,
+          "unit": "-12 oz"
         }
       ],
       "instructions": "After pouring in your ingredients, and adding 3-5 ice cubes, according to taste. Stir the drink with a stirrer to get the Vanilla off the bottom.",
@@ -4730,18 +4730,18 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Triple sec",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Lime juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Shake all ingredients together with ice. Strain into glass, garnish and serve.",
@@ -4756,23 +4756,23 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Grenadine",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Light cream",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Egg white",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -4787,18 +4787,18 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Roses sweetened lime juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Cranberry Juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Sprite",
@@ -4822,23 +4822,23 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Coconut Liqueur",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Elderflower cordial",
-          "amount": 25,
-          "unit": "25 ml"
+          "amount": 50,
+          "unit": "ml"
         },
         {
           "name": "Lime Juice",
-          "amount": 30,
-          "unit": "30 ml"
+          "amount": 60,
+          "unit": "ml"
         },
         {
           "name": "Blackberries",
@@ -4860,8 +4860,8 @@
       "ingredients": [
         {
           "name": "Black Sambuca",
-          "amount": 25,
-          "unit": "25 ml"
+          "amount": 50,
+          "unit": "ml"
         },
         {
           "name": "Orange juice",
@@ -4884,18 +4884,18 @@
       "ingredients": [
         {
           "name": "Wild Turkey",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Amaretto",
-          "amount": 3,
-          "unit": "3/4 oz"
+          "amount": 3.75,
+          "unit": "oz"
         },
         {
           "name": "Pineapple juice",
-          "amount": 1,
-          "unit": "1 splash"
+          "amount": 2,
+          "unit": "splash"
         }
       ],
       "instructions": "Shake with ice and strain into a shot glass.",
@@ -4910,13 +4910,13 @@
       "ingredients": [
         {
           "name": "Kiwi liqueur",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         },
         {
           "name": "Bitter lemon",
-          "amount": 2,
-          "unit": "2 parts"
+          "amount": 4,
+          "unit": "parts"
         },
         {
           "name": "Ice",
@@ -4938,18 +4938,18 @@
       "ingredients": [
         {
           "name": "Sweet Vermouth",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Sloe gin",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Lemon peel",
-          "amount": 1,
-          "unit": "1 twist of"
+          "amount": 2,
+          "unit": "twist of"
         }
       ],
       "instructions": "Stir sloe gin and vermouth with ice and strain into a cocktail glass. Add the twist of lemon peel and serve.",
@@ -4966,13 +4966,13 @@
       "ingredients": [
         {
           "name": "Creme de Cassis",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         },
         {
           "name": "Champagne",
-          "amount": 5,
-          "unit": "5 parts"
+          "amount": 10,
+          "unit": "parts"
         }
       ],
       "instructions": "Pour Creme de cassis in glass, gently pour champagne on top",
@@ -4987,8 +4987,8 @@
       "ingredients": [
         {
           "name": "Absolut Kurant",
-          "amount": 4,
-          "unit": "4 cl"
+          "amount": 8,
+          "unit": "cl"
         },
         {
           "name": "Tea",
@@ -5013,13 +5013,13 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Grenadine",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "lemon",
@@ -5052,28 +5052,28 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 5,
-          "unit": "5 cl"
+          "amount": 10,
+          "unit": "cl"
         },
         {
           "name": "Lime",
-          "amount": 1,
-          "unit": "1/2"
+          "amount": 1.5,
+          "unit": "unit"
         },
         {
           "name": "Angostura bitters",
-          "amount": 4,
-          "unit": "4 dashes"
+          "amount": 8,
+          "unit": "dashes"
         },
         {
           "name": "Tonic water",
-          "amount": 1,
-          "unit": "1 dl Schweppes"
+          "amount": 2,
+          "unit": "dl schweppes"
         },
         {
           "name": "Ice",
-          "amount": 4,
-          "unit": "4"
+          "amount": 8,
+          "unit": "unit"
         }
       ],
       "instructions": "Shake a tall glass with ice cubes and Angostura, coating the inside of the glass. Por the vodka onto this, add 1 slice of lime and squeeze juice out of remainder, mix with tonic, stir and voila you have a Long Vodka",
@@ -5091,13 +5091,13 @@
       "ingredients": [
         {
           "name": "Scotch",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Wine",
-          "amount": 1,
-          "unit": "1 oz Green Ginger"
+          "amount": 2,
+          "unit": "oz green ginger"
         }
       ],
       "instructions": "Pour both of the ingredients into a wine goblet with no ice.",
@@ -5112,23 +5112,23 @@
       "ingredients": [
         {
           "name": "Red wine",
-          "amount": 1,
-          "unit": "1/3 part"
+          "amount": 1.3333333333333333,
+          "unit": "part"
         },
         {
           "name": "Peach schnapps",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Pepsi Cola",
-          "amount": 1,
-          "unit": "1/3 part"
+          "amount": 1.3333333333333333,
+          "unit": "part"
         },
         {
           "name": "Orange juice",
-          "amount": 1,
-          "unit": "1/3 part"
+          "amount": 1.3333333333333333,
+          "unit": "part"
         }
       ],
       "instructions": "Throw it all together and serve real cold.",
@@ -5143,18 +5143,18 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 2/3 oz"
+          "amount": 2.6666666666666665,
+          "unit": "oz"
         },
         {
           "name": "Dry Vermouth",
-          "amount": 1,
-          "unit": "1/3 oz"
+          "amount": 1.3333333333333333,
+          "unit": "oz"
         },
         {
           "name": "Olive",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Straight: Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled martini cocktail glass. Squeeze oil from lemon peel onto the drink, or garnish with olive.",
@@ -5171,28 +5171,28 @@
       "ingredients": [
         {
           "name": "Light rum",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1/2 tsp superfine"
+          "amount": 1.5,
+          "unit": "tsp superfine"
         },
         {
           "name": "Orange",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Maraschino cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "In a shaker half-filled with ice cubes, combine the rum, lemon juice, and sugar. Shake well. Strain into a sour glass and garnish with the orange slice and the cherry.",
@@ -5210,28 +5210,28 @@
       "ingredients": [
         {
           "name": "Water",
-          "amount": 1,
-          "unit": "1 cup"
+          "amount": 2,
+          "unit": "cup"
         },
         {
           "name": "Brown sugar",
-          "amount": 3,
-          "unit": "3/4-1 cup"
+          "amount": 3.75,
+          "unit": "-1 cup"
         },
         {
           "name": "Coffee",
-          "amount": 4,
-          "unit": "4 tsp"
+          "amount": 8,
+          "unit": "tsp"
         },
         {
           "name": "Rum",
-          "amount": 1,
-          "unit": "1 cup"
+          "amount": 2,
+          "unit": "cup"
         },
         {
           "name": "Vanilla extract",
-          "amount": 4,
-          "unit": "4 tsp"
+          "amount": 8,
+          "unit": "tsp"
         }
       ],
       "instructions": "Boil water, sugar and coffe for 10 mins and let cool. Add rum and vanilla. Put in clean bottle(s) and leave for 1 week before using.",
@@ -5246,23 +5246,23 @@
       "ingredients": [
         {
           "name": "Dark rum",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Kahlua",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Light cream",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Nutmeg",
-          "amount": 1,
-          "unit": "1/8 tsp grated"
+          "amount": 1.125,
+          "unit": "tsp grated"
         }
       ],
       "instructions": "In a shaker half-filled with ice cubes, combine the rum, Kahlua, and cream. Shake well. Strain into a cocktail glass and garnish with the nutmeg.",
@@ -5277,18 +5277,18 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 4.5,
-          "unit": "4.5 cl"
+          "amount": 4,
+          "unit": ".5 4.5 cl"
         },
         {
           "name": "lemon juice",
-          "amount": 1.5,
-          "unit": "1.5 cl"
+          "amount": 1,
+          "unit": ".5 1.5 cl"
         },
         {
           "name": "maraschino liqueur",
-          "amount": 1.5,
-          "unit": "1.5 cl"
+          "amount": 1,
+          "unit": ".5 1.5 cl"
         }
       ],
       "instructions": "Add all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass. Garnish with a cherry.",
@@ -5303,18 +5303,18 @@
       "ingredients": [
         {
           "name": "Sambuca",
-          "amount": 2,
-          "unit": "2 cl"
+          "amount": 4,
+          "unit": "cl"
         },
         {
           "name": "Baileys irish cream",
-          "amount": 2,
-          "unit": "2 cl"
+          "amount": 4,
+          "unit": "cl"
         },
         {
           "name": "White Creme de Menthe",
-          "amount": 2,
-          "unit": "2 cl"
+          "amount": 4,
+          "unit": "cl"
         }
       ],
       "instructions": "add all and pour black coffee and add whipped cream on top.",
@@ -5329,18 +5329,18 @@
       "ingredients": [
         {
           "name": "Irish Whiskey",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Sweet Vermouth",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Green Chartreuse",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         }
       ],
       "instructions": "Stir over ice. Strain into chilled glass. Cut a wide swath of orange peel, and express the orange oils over the drink. Discard orange twist.",
@@ -5355,13 +5355,13 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 1/2 shot"
+          "amount": 2.5,
+          "unit": "shot"
         },
         {
           "name": "Cointreau",
-          "amount": 1,
-          "unit": "1 1/2 shot"
+          "amount": 2.5,
+          "unit": "shot"
         },
         {
           "name": "Lemon",
@@ -5383,13 +5383,13 @@
       "ingredients": [
         {
           "name": "Ricard",
-          "amount": 3,
-          "unit": "3 cl"
+          "amount": 6,
+          "unit": "cl"
         },
         {
           "name": "Orgeat Syrup",
-          "amount": 1,
-          "unit": "1 cl"
+          "amount": 2,
+          "unit": "cl"
         },
         {
           "name": "Water",
@@ -5411,18 +5411,18 @@
       "ingredients": [
         {
           "name": "Coffee brandy",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Lime vodka",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Sherry",
-          "amount": 1,
-          "unit": "1/2 oz cream"
+          "amount": 1.5,
+          "unit": "oz cream"
         }
       ],
       "instructions": "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -5437,28 +5437,28 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Grenadine",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Powdered sugar",
-          "amount": 1,
-          "unit": "1 tblsp"
+          "amount": 2,
+          "unit": "tblsp"
         },
         {
           "name": "Pineapple",
-          "amount": 3,
-          "unit": "3 chunks"
+          "amount": 6,
+          "unit": "chunks"
         },
         {
           "name": "Strawberries",
-          "amount": 2,
-          "unit": "2"
+          "amount": 4,
+          "unit": "unit"
         },
         {
           "name": "Carbonated water",
@@ -5480,18 +5480,18 @@
       "ingredients": [
         {
           "name": "Hpnotiq",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Pineapple Juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Banana Liqueur",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Shake well in a shaker with ice.\r\nStrain in a martini glass.",
@@ -5506,23 +5506,23 @@
       "ingredients": [
         {
           "name": "Tequila",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1 tblsp"
+          "amount": 2,
+          "unit": "tblsp"
         },
         {
           "name": "Grenadine",
-          "amount": 3,
-          "unit": "3/4 oz"
+          "amount": 3.75,
+          "unit": "oz"
         },
         {
           "name": "Egg white",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Ginger ale",
@@ -5542,8 +5542,8 @@
       "ingredients": [
         {
           "name": "Tequila",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Lemon",
@@ -5552,18 +5552,18 @@
         },
         {
           "name": "Powdered sugar",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Lemon",
-          "amount": 1,
-          "unit": "1/2 slice"
+          "amount": 1.5,
+          "unit": "slice"
         },
         {
           "name": "Cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Shake tequila, juice of lemon, and powdered sugar with ice and strain into a whiskey sour glass. Add the half-slice of lemon, top with the cherry, and serve.",
@@ -5581,23 +5581,23 @@
       "ingredients": [
         {
           "name": "Cranberry vodka",
-          "amount": 4,
-          "unit": "4 cl"
+          "amount": 8,
+          "unit": "cl"
         },
         {
           "name": "Apfelkorn",
-          "amount": 2,
-          "unit": "2 cl"
+          "amount": 4,
+          "unit": "cl"
         },
         {
           "name": "Schweppes Russchian",
-          "amount": 7,
-          "unit": "7 cl"
+          "amount": 14,
+          "unit": "cl"
         },
         {
           "name": "Apple juice",
-          "amount": 8,
-          "unit": "8 cl"
+          "amount": 16,
+          "unit": "cl"
         },
         {
           "name": "Ice",
@@ -5617,28 +5617,28 @@
       "ingredients": [
         {
           "name": "Coffee",
-          "amount": 10,
-          "unit": "10 tblsp instant"
+          "amount": 20,
+          "unit": "tblsp instant"
         },
         {
           "name": "Vanilla extract",
-          "amount": 4,
-          "unit": "4 tblsp"
+          "amount": 8,
+          "unit": "tblsp"
         },
         {
           "name": "Sugar",
-          "amount": 2,
-          "unit": "2 1/2 cups"
+          "amount": 4.5,
+          "unit": "cups"
         },
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 qt"
+          "amount": 2,
+          "unit": "qt"
         },
         {
           "name": "Water",
-          "amount": 2,
-          "unit": "2 1/2 cups"
+          "amount": 4.5,
+          "unit": "cups"
         }
       ],
       "instructions": "Combine coffee, sugar and water. Simmer 1 hour and let cool. Add vanilla and vodka. Age in sealed jar 2 to 3 weeks.",
@@ -5653,33 +5653,33 @@
       "ingredients": [
         {
           "name": "Light rum",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Triple sec",
-          "amount": 1,
-          "unit": "1 tblsp"
+          "amount": 2,
+          "unit": "tblsp"
         },
         {
           "name": "Banana",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Lime juice",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass.",
@@ -5694,33 +5694,33 @@
       "ingredients": [
         {
           "name": "Light rum",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Triple sec",
-          "amount": 1,
-          "unit": "1 tblsp"
+          "amount": 2,
+          "unit": "tblsp"
         },
         {
           "name": "Lime juice",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Ice",
-          "amount": 1,
-          "unit": "1 cup crushed"
+          "amount": 2,
+          "unit": "cup crushed"
         }
       ],
       "instructions": "Combine all ingredients (except for the cherry) in an electric blender and blend at a low speed for five seconds, then blend at a high speed until firm. Pour contents into a champagne flute, top with the cherry, and serve.",
@@ -5735,13 +5735,13 @@
       "ingredients": [
         {
           "name": "Red wine",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Grenadine",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Lemon-lime soda",
@@ -5763,18 +5763,18 @@
       "ingredients": [
         {
           "name": "Dry Vermouth",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Benedictine",
-          "amount": 1,
-          "unit": "1 1/2 tsp"
+          "amount": 2.5,
+          "unit": "tsp"
         }
       ],
       "instructions": "Stir all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -5789,13 +5789,13 @@
       "ingredients": [
         {
           "name": "Tequila",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "7-up",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         }
       ],
       "instructions": "Mix carefully to avoid releasing the dissolved CO2.",
@@ -5810,8 +5810,8 @@
       "ingredients": [
         {
           "name": "Tequila",
-          "amount": 2,
-          "unit": "2 measures"
+          "amount": 4,
+          "unit": "measures"
         },
         {
           "name": "Orange juice",
@@ -5838,58 +5838,58 @@
       "ingredients": [
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1 cup"
+          "amount": 2,
+          "unit": "cup"
         },
         {
           "name": "Water",
-          "amount": 3,
-          "unit": "3/4 cup"
+          "amount": 3.75,
+          "unit": "cup"
         },
         {
           "name": "Apricot",
-          "amount": 2,
-          "unit": "2"
+          "amount": 4,
+          "unit": "unit"
         },
         {
           "name": "Almond flavoring",
-          "amount": 1,
-          "unit": "1 tblsp"
+          "amount": 2,
+          "unit": "tblsp"
         },
         {
           "name": "Grain alcohol",
-          "amount": 1,
-          "unit": "1/2 cup pure"
+          "amount": 1.5,
+          "unit": "cup pure"
         },
         {
           "name": "Water",
-          "amount": 1,
-          "unit": "1/2 cup"
+          "amount": 1.5,
+          "unit": "cup"
         },
         {
           "name": "Brandy",
-          "amount": 1,
-          "unit": "1 cup"
-        },
-        {
-          "name": "Food coloring",
-          "amount": 3,
-          "unit": "3 drops yellow"
+          "amount": 2,
+          "unit": "cup"
         },
         {
           "name": "Food coloring",
           "amount": 6,
-          "unit": "6 drops red"
+          "unit": "drops yellow"
         },
         {
           "name": "Food coloring",
-          "amount": 2,
-          "unit": "2 drops blue"
+          "amount": 12,
+          "unit": "drops red"
+        },
+        {
+          "name": "Food coloring",
+          "amount": 4,
+          "unit": "drops blue"
         },
         {
           "name": "Glycerine",
-          "amount": 1,
-          "unit": "1/2 tsp"
+          "amount": 1.5,
+          "unit": "tsp"
         }
       ],
       "instructions": "Combine sugar and 3/4 cup water in a small saucepan. Bring to a boil, stirring constantly. Reduce heat and simmer until all sugar is dissolved. Remove from heat and cool. In an aging container, combine apricot halves, almond extract, grain alcohol with 1/2 cup water, and brandy. Stir in cooled sugar syrup mixture. Cap and let age for 2 days. Remove apricot halves. (Save apricot halves, can be used for cooking). Add food coloring and glycerine. Stir, recap and continue aging for 1 to 2 months. Re-bottle as desired. Liqueur is ready to serve but will continue to improve with additional aging.",
@@ -5906,63 +5906,63 @@
       "ingredients": [
         {
           "name": "Angelica root",
-          "amount": 3,
-          "unit": "3 tblsp chopped"
+          "amount": 6,
+          "unit": "tblsp chopped"
         },
         {
           "name": "Almond",
-          "amount": 1,
-          "unit": "1 tblsp chopped"
+          "amount": 2,
+          "unit": "tblsp chopped"
         },
         {
           "name": "Allspice",
-          "amount": 1,
-          "unit": "1 cracked"
+          "amount": 2,
+          "unit": "cracked"
         },
         {
           "name": "Cinnamon",
-          "amount": 1,
-          "unit": "1 one-inch"
+          "amount": 2,
+          "unit": "one-inch"
         },
         {
           "name": "Anise",
-          "amount": 3,
-          "unit": "3-6 crushed"
+          "amount": 6,
+          "unit": "-6 crushed"
         },
         {
           "name": "Coriander",
-          "amount": 1,
-          "unit": "1/8 tsp powdered"
+          "amount": 1.125,
+          "unit": "tsp powdered"
         },
         {
           "name": "Marjoram leaves",
-          "amount": 1,
-          "unit": "1 tblsp fresh chopped"
+          "amount": 2,
+          "unit": "tblsp fresh chopped"
         },
         {
           "name": "Vodka",
-          "amount": 1.5,
-          "unit": "1.5 cup"
+          "amount": 1,
+          "unit": ".5 1.5 cup"
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1/2 cup granulated"
+          "amount": 1.5,
+          "unit": "cup granulated"
         },
         {
           "name": "Water",
-          "amount": 1,
-          "unit": "1/4 cup"
+          "amount": 1.25,
+          "unit": "cup"
         },
         {
           "name": "Food coloring",
-          "amount": 1,
-          "unit": "1 drop yellow"
+          "amount": 2,
+          "unit": "drop yellow"
         },
         {
           "name": "Food coloring",
-          "amount": 1,
-          "unit": "1 drop green"
+          "amount": 2,
+          "unit": "drop green"
         }
       ],
       "instructions": "Combine all herbs, nuts and spices with vodka in a 1 quart or larger aging container. Cap tightly and shake daily for 2 weeks. Strain through a fine muslin cloth or coffee filter, discarding solids. Clean out aging container. Place liquid back in container. Place sugar and water in saucepan and stir to combine over medium heat. When sugar is completely dissolved, set aside and let cool. When cool combine with food coloring and add to liqueur liquid. Cap and allow to age and mellow in a cool, dark place for one month.",
@@ -6000,13 +6000,13 @@
       "ingredients": [
         {
           "name": "Light rum",
-          "amount": 3,
-          "unit": "3/4 oz"
+          "amount": 3.75,
+          "unit": "oz"
         },
         {
           "name": "Brandy",
-          "amount": 3,
-          "unit": "3/4 oz"
+          "amount": 3.75,
+          "unit": "oz"
         },
         {
           "name": "Lemon",
@@ -6015,8 +6015,8 @@
         },
         {
           "name": "Raspberry syrup",
-          "amount": 2,
-          "unit": "2 tsp"
+          "amount": 4,
+          "unit": "tsp"
         }
       ],
       "instructions": "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -6031,33 +6031,33 @@
       "ingredients": [
         {
           "name": "Rum",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Blue Curacao",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Sour mix",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Lemon-lime soda",
-          "amount": 1,
-          "unit": "1 splash"
+          "amount": 2,
+          "unit": "splash"
         }
       ],
       "instructions": "Pour all ingredients into a shaker of ice. Shake well. Serve on the rocks.",
@@ -6072,28 +6072,28 @@
       "ingredients": [
         {
           "name": "Strawberry schnapps",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Light rum",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Lime juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Powdered sugar",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Strawberries",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Pour all ingredients into shaker with ice cubes. Shake well. Strain in chilled cocktail glass.",
@@ -6110,18 +6110,18 @@
       "ingredients": [
         {
           "name": "Sweet Vermouth",
-          "amount": 1,
-          "unit": "1 1/2 tsp"
+          "amount": 2.5,
+          "unit": "tsp"
         },
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Bitters",
-          "amount": 2,
-          "unit": "2 dashes"
+          "amount": 4,
+          "unit": "dashes"
         }
       ],
       "instructions": "Stir all ingredients with ice, strain into a cocktail glass, and serve.",
@@ -6136,13 +6136,13 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 1/4 oz Stoli"
+          "amount": 2.25,
+          "unit": "oz stoli"
         },
         {
           "name": "Ouzo",
-          "amount": 1,
-          "unit": "1/4 oz"
+          "amount": 1.25,
+          "unit": "oz"
         }
       ],
       "instructions": "Prepare like a Martini. Garnish with a green olive.",
@@ -6157,18 +6157,18 @@
       "ingredients": [
         {
           "name": "Light rum",
-          "amount": 3,
-          "unit": "3 oz"
+          "amount": 6,
+          "unit": "oz"
         },
         {
           "name": "Maple syrup",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Shake all ingredients with ice, strain into an old-fashioned glass over ice cubes, and serve.",
@@ -6183,23 +6183,23 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Cognac",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Creme de Cassis",
-          "amount": 1,
-          "unit": "1 shot"
+          "amount": 2,
+          "unit": "shot"
         },
         {
           "name": "Fresh Lemon Juice",
-          "amount": 1,
-          "unit": "1/8 shot"
+          "amount": 1.125,
+          "unit": "shot"
         }
       ],
       "instructions": "Shake together all the ingredients and strain into a cold glass.",
@@ -6214,8 +6214,8 @@
       "ingredients": [
         {
           "name": "151 proof rum",
-          "amount": 5,
-          "unit": "5 oz Bacardi"
+          "amount": 10,
+          "unit": "oz bacardi"
         },
         {
           "name": "Pina colada mix",
@@ -6240,18 +6240,18 @@
       "ingredients": [
         {
           "name": "Sprite",
-          "amount": 1,
-          "unit": "1 cup"
+          "amount": 2,
+          "unit": "cup"
         },
         {
           "name": "Lime Juice",
-          "amount": 1,
-          "unit": "1/2 shot"
+          "amount": 1.5,
+          "unit": "shot"
         },
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 1/2 shot"
+          "amount": 2.5,
+          "unit": "shot"
         }
       ],
       "instructions": "Fill glass with ice. Add vodka, 7-up then finish with the lime juice.",
@@ -6269,18 +6269,18 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 4,
-          "unit": "4 cl"
+          "amount": 8,
+          "unit": "cl"
         },
         {
           "name": "Tonic Water",
-          "amount": 10,
-          "unit": "10 cl"
+          "amount": 20,
+          "unit": "cl"
         },
         {
           "name": "Lemon Peel",
-          "amount": 1,
-          "unit": "1 Slice"
+          "amount": 2,
+          "unit": "slice"
         }
       ],
       "instructions": "Wash and cut 1 wedge and 1 slice of lime or lemon.\r\nFill a tumbler with fresh ice.\r\nPour the desired dose of vodka and top up with the tonic.\r\nSqueeze the lime wedge into the glass and decorate with the slice.\r\nThat's all, very simple: it's just the recipe for happiness!",
@@ -6298,18 +6298,18 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 5,
-          "unit": "5 cl"
+          "amount": 10,
+          "unit": "cl"
         },
         {
           "name": "Lemon Juice",
-          "amount": 7,
-          "unit": "7 cl"
+          "amount": 14,
+          "unit": "cl"
         },
         {
           "name": "Lemon Peel",
-          "amount": 1,
-          "unit": "1 Slice"
+          "amount": 2,
+          "unit": "slice"
         },
         {
           "name": "Ice",
@@ -6332,8 +6332,8 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Orange juice",
@@ -6353,13 +6353,13 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Grenadine",
-          "amount": 2,
-          "unit": "2 tsp"
+          "amount": 4,
+          "unit": "tsp"
         },
         {
           "name": "Lemon",
@@ -6368,8 +6368,8 @@
         },
         {
           "name": "Egg white",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Dry shake ingredients to emulsify, add ice, shake and served straight up.",
@@ -6384,23 +6384,23 @@
       "ingredients": [
         {
           "name": "Campari",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Sweet Vermouth",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Rye whiskey",
-          "amount": 1,
-          "unit": "1 1/4 oz"
+          "amount": 2.25,
+          "unit": "oz"
         },
         {
           "name": "Orange Peel",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Stir with ice, strain, garnish and serve.",
@@ -6415,28 +6415,28 @@
       "ingredients": [
         {
           "name": "Water",
-          "amount": 2,
-          "unit": "2 cups"
+          "amount": 4,
+          "unit": "cups"
         },
         {
           "name": "Sugar",
-          "amount": 2,
-          "unit": "2 cups white"
+          "amount": 4,
+          "unit": "cups white"
         },
         {
           "name": "Coffee",
-          "amount": 1,
-          "unit": "1/2 cup instant"
+          "amount": 1.5,
+          "unit": "cup instant"
         },
         {
           "name": "Vanilla",
-          "amount": 1,
-          "unit": "1/2"
+          "amount": 1.5,
+          "unit": "unit"
         },
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 1/2 cup"
+          "amount": 2.5,
+          "unit": "cup"
         },
         {
           "name": "Caramel coloring",
@@ -6463,8 +6463,8 @@
         },
         {
           "name": "Green Creme de Menthe",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         }
       ],
       "instructions": "Put creme de menthe into a champagne flute. Fill with chilled champagne and serve.",
@@ -6479,8 +6479,8 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Schweppes Russchian",
@@ -6500,18 +6500,18 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Dry Vermouth",
-          "amount": 3,
-          "unit": "3/4 oz"
+          "amount": 3.75,
+          "unit": "oz"
         },
         {
           "name": "Olive",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Shake the vodka and vermouth together with a number of ice cubes, strain into a cocktail glass, add the olive and serve.",
@@ -6526,18 +6526,18 @@
       "ingredients": [
         {
           "name": "Jack Daniels",
-          "amount": 1,
-          "unit": "1/3 oz"
+          "amount": 1.3333333333333333,
+          "unit": "oz"
         },
         {
           "name": "Johnnie Walker",
-          "amount": 1,
-          "unit": "1/3 oz"
+          "amount": 1.3333333333333333,
+          "unit": "oz"
         },
         {
           "name": "Jim Beam",
-          "amount": 1,
-          "unit": "1/3 oz"
+          "amount": 1.3333333333333333,
+          "unit": "oz"
         }
       ],
       "instructions": "put them them in a glass... and slam it to tha head.",
@@ -6552,18 +6552,18 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Lime juice",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Ginger ale",
-          "amount": 8,
-          "unit": "8 oz"
+          "amount": 16,
+          "unit": "oz"
         }
       ],
       "instructions": "Combine vodka and ginger beer in a highball glass filled with ice. Add lime juice. Stir gently. Garnish.",
@@ -6581,28 +6581,28 @@
       "ingredients": [
         {
           "name": "Lime juice",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1 tsp superfine"
+          "amount": 2,
+          "unit": "tsp superfine"
         },
         {
           "name": "Gin",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Bitters",
-          "amount": 1,
-          "unit": "1 dash"
+          "amount": 2,
+          "unit": "dash"
         },
         {
           "name": "Club soda",
-          "amount": 3,
-          "unit": "3 oz"
+          "amount": 6,
+          "unit": "oz"
         }
       ],
       "instructions": "In a shaker half-filled with ice cubes, combine the lime juice, sugar, gin, and bitters. Shake well. Almost fill a colling glass with ice cubes. Stir until the glass is frosted. Strain the mixture in the shaker into the glass and add the club soda.",
@@ -6621,23 +6621,23 @@
       "ingredients": [
         {
           "name": "White Rum",
-          "amount": 3,
-          "unit": "3 cl"
+          "amount": 6,
+          "unit": "cl"
         },
         {
           "name": "Galliano",
-          "amount": 1.5,
-          "unit": "1.5 cl"
+          "amount": 1,
+          "unit": ".5 1.5 cl"
         },
         {
           "name": "Triple Sec",
-          "amount": 1.5,
-          "unit": "1.5 cl"
+          "amount": 1,
+          "unit": ".5 1.5 cl"
         },
         {
           "name": "Lime Juice",
-          "amount": 1.5,
-          "unit": "1.5 cl"
+          "amount": 1,
+          "unit": ".5 1.5 cl"
         }
       ],
       "instructions": "Shake and strain into a chilled cocktail glass",
@@ -6652,18 +6652,18 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Maraschino liqueur",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Orange bitters",
-          "amount": 2,
-          "unit": "2 dashes"
+          "amount": 4,
+          "unit": "dashes"
         }
       ],
       "instructions": "In a mixing glass half-filled with ice cubes, combine all of the ingredients. Stir well. Strain into a cocktail glass.",
@@ -6678,23 +6678,23 @@
       "ingredients": [
         {
           "name": "Orange juice",
-          "amount": 4,
-          "unit": "4 oz"
+          "amount": 8,
+          "unit": "oz"
         },
         {
           "name": "Rum",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Cream",
-          "amount": 1,
-          "unit": "1 package"
+          "amount": 2,
+          "unit": "package"
         },
         {
           "name": "Ice",
@@ -6714,8 +6714,8 @@
       "ingredients": [
         {
           "name": "Godiva liqueur",
-          "amount": 2,
-          "unit": "2 shots"
+          "amount": 4,
+          "unit": "shots"
         },
         {
           "name": "Milk",
@@ -6737,38 +6737,38 @@
       "ingredients": [
         {
           "name": "Water",
-          "amount": 3,
-          "unit": "3 cups"
+          "amount": 6,
+          "unit": "cups"
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1 cup"
+          "amount": 2,
+          "unit": "cup"
         },
         {
           "name": "Cloves",
-          "amount": 12,
-          "unit": "12"
+          "amount": 24,
+          "unit": "unit"
         },
         {
           "name": "Cinnamon",
-          "amount": 2,
-          "unit": "2"
+          "amount": 4,
+          "unit": "unit"
         },
         {
           "name": "Lemon peel",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Red wine",
-          "amount": 750,
-          "unit": "750 ml"
+          "amount": 1500,
+          "unit": "ml"
         },
         {
           "name": "Brandy",
-          "amount": 1,
-          "unit": "1/4 cup"
+          "amount": 1.25,
+          "unit": "cup"
         }
       ],
       "instructions": "Simmer 3 cups water with, sugar, cloves, cinnamon sticks, and lemon peel in a stainless steel pot for 10 minutes. Add wine heat to a \"coffee temperature\" (DO NOT BOIL) then add the brandy.",
@@ -6785,13 +6785,13 @@
       "ingredients": [
         {
           "name": "Red wine",
-          "amount": 2,
-          "unit": "2 oz white or"
+          "amount": 4,
+          "unit": "oz white or"
         },
         {
           "name": "Lemon-lime soda",
-          "amount": 5,
-          "unit": "5 oz"
+          "amount": 10,
+          "unit": "oz"
         },
         {
           "name": "Ice",
@@ -6811,28 +6811,28 @@
       "ingredients": [
         {
           "name": "Tequila",
-          "amount": 1,
-          "unit": "1 2/3 oz"
+          "amount": 2.6666666666666665,
+          "unit": "oz"
         },
         {
           "name": "Campari",
-          "amount": 1,
-          "unit": "1/4 oz"
+          "amount": 1.25,
+          "unit": "oz"
         },
         {
           "name": "Lime Juice",
-          "amount": 3,
-          "unit": "3/4 oz"
+          "amount": 3.75,
+          "unit": "oz"
         },
         {
           "name": "Orange Juice",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Rosemary Syrup",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Salt",
@@ -6854,23 +6854,23 @@
       "ingredients": [
         {
           "name": "Absolut Citron",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Orange Curacao",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Strawberry liqueur",
-          "amount": 1,
-          "unit": "1 splash"
+          "amount": 2,
+          "unit": "splash"
         },
         {
           "name": "Orange juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Combine all ingredients in glass mixer. Chill and strain into Cocktail glass. Garnish with sliced strawberry.",
@@ -6887,8 +6887,8 @@
       "ingredients": [
         {
           "name": "Blended whiskey",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Lemon",
@@ -6897,18 +6897,18 @@
         },
         {
           "name": "Powdered sugar",
-          "amount": 1,
-          "unit": "1/2 tsp"
+          "amount": 1.5,
+          "unit": "tsp"
         },
         {
           "name": "Cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Lemon",
-          "amount": 1,
-          "unit": "1/2 slice"
+          "amount": 1.5,
+          "unit": "slice"
         }
       ],
       "instructions": "Shake with ice. Strain into chilled glass, garnish and serve. If served 'On the rocks', strain ingredients into old-fashioned glass filled with ice.",
@@ -6925,18 +6925,18 @@
       "ingredients": [
         {
           "name": "Kiwi",
-          "amount": 1,
-          "unit": "1/2"
+          "amount": 1.5,
+          "unit": "unit"
         },
         {
           "name": "Sugar Syrup",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Kiwi",
@@ -6960,18 +6960,18 @@
       "ingredients": [
         {
           "name": "Light rum",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Grapefruit juice",
-          "amount": 3,
-          "unit": "3 oz"
+          "amount": 6,
+          "unit": "oz"
         },
         {
           "name": "Bitters",
-          "amount": 1,
-          "unit": "1 dash"
+          "amount": 2,
+          "unit": "dash"
         }
       ],
       "instructions": "Pour all of the ingredients into an old-fashioned glass almost filled with ice cubes. Stir well.",
@@ -6986,8 +6986,8 @@
       "ingredients": [
         {
           "name": "Blended whiskey",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Lemon",
@@ -6996,8 +6996,8 @@
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Red wine",
@@ -7030,23 +7030,23 @@
       "ingredients": [
         {
           "name": "Absolut Kurant",
-          "amount": 3,
-          "unit": "3/4 oz"
+          "amount": 3.75,
+          "unit": "oz"
         },
         {
           "name": "Midori melon liqueur",
-          "amount": 3,
-          "unit": "3/4 oz"
+          "amount": 3.75,
+          "unit": "oz"
         },
         {
           "name": "Cranberry juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Sprite",
-          "amount": 1,
-          "unit": "1 splash"
+          "amount": 2,
+          "unit": "splash"
         }
       ],
       "instructions": "Shake Absolut Kurant, Midori, and Cranberry juice in shaker with ice: Strain into rocks glass: Splash of seven on top.Absolut Sex.",
@@ -7064,28 +7064,28 @@
       "ingredients": [
         {
           "name": "Kahlua",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Irish cream",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Amaretto",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "151 proof rum",
-          "amount": 1,
-          "unit": "1/2 oz Bacardi"
+          "amount": 1.5,
+          "unit": "oz bacardi"
         },
         {
           "name": "Cream",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Blend with Ice until smooth. Serve in a tulip glass, top with whip cream.",
@@ -7100,13 +7100,13 @@
       "ingredients": [
         {
           "name": "Kahlua",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Baileys irish cream",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Goldschlager",
@@ -7115,13 +7115,13 @@
         },
         {
           "name": "Heavy cream",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Coffee",
-          "amount": 2,
-          "unit": "2 oz Hazlenut"
+          "amount": 4,
+          "unit": "oz hazlenut"
         }
       ],
       "instructions": "Fill a mixer with ice and add Baileys, Kahlua, Goldshlager, and cream. Shake for 5 seconds and Strain into a double rocks glass filled with ice. Add chilled coffee Stir and enjoy!",
@@ -7136,33 +7136,33 @@
       "ingredients": [
         {
           "name": "Dry Vermouth",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Maraschino liqueur",
-          "amount": 1,
-          "unit": "1/4 tsp"
+          "amount": 1.25,
+          "unit": "tsp"
         },
         {
           "name": "Anis",
-          "amount": 1,
-          "unit": "1/4 tsp"
+          "amount": 1.25,
+          "unit": "tsp"
         },
         {
           "name": "Orange bitters",
-          "amount": 2,
-          "unit": "2 dashes"
+          "amount": 4,
+          "unit": "dashes"
         },
         {
           "name": "Cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "Stir all ingredients with ice and strain into a cocktail glass. Garnish with a cherry and a twist of lemon zest.",
@@ -7179,18 +7179,18 @@
       "ingredients": [
         {
           "name": "Brandy",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Creme de Cacao",
-          "amount": 1,
-          "unit": "1 oz white"
+          "amount": 2,
+          "unit": "oz white"
         },
         {
           "name": "Light cream",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Nutmeg",
@@ -7210,13 +7210,13 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Peach schnapps",
-          "amount": 3,
-          "unit": "3/4 oz"
+          "amount": 3.75,
+          "unit": "oz"
         },
         {
           "name": "Cranberry juice",
@@ -7241,23 +7241,23 @@
       "ingredients": [
         {
           "name": "Yukon Jack",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         },
         {
           "name": "Cherry brandy",
-          "amount": 1,
-          "unit": "1/2 part"
+          "amount": 1.5,
+          "unit": "part"
         },
         {
           "name": "Southern Comfort",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         },
         {
           "name": "Sweet and sour",
-          "amount": 1,
-          "unit": "1 splash"
+          "amount": 2,
+          "unit": "splash"
         }
       ],
       "instructions": "Mix all ingredients and Shake well. Sweet at first, with a BITE at the end...",
@@ -7274,33 +7274,33 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Lemon juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Sugar",
-          "amount": 1,
-          "unit": "1/2 tsp superfine"
+          "amount": 1.5,
+          "unit": "tsp superfine"
         },
         {
           "name": "Grenadine",
-          "amount": 1,
-          "unit": "1/2 tsp"
+          "amount": 1.5,
+          "unit": "tsp"
         },
         {
           "name": "Maraschino cherry",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Orange",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         }
       ],
       "instructions": "In a shaker half-filled with ice cubes, combine the gin, lemon juice, sugar, and grenadine. Shake well. Pour into an old-fashioned glass and garnish with the cherry and the orange slice.",
@@ -7318,23 +7318,23 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 2,
-          "unit": "2 oz"
+          "amount": 4,
+          "unit": "oz"
         },
         {
           "name": "Water",
-          "amount": 2,
-          "unit": "2 tsp"
+          "amount": 4,
+          "unit": "tsp"
         },
         {
           "name": "Powdered sugar",
-          "amount": 1,
-          "unit": "1/2 tsp"
+          "amount": 1.5,
+          "unit": "tsp"
         },
         {
           "name": "Lemon peel",
-          "amount": 1,
-          "unit": "1 twist of"
+          "amount": 2,
+          "unit": "twist of"
         }
       ],
       "instructions": "Mix powdered sugar and water in an old-fashioned glass. Add gin and one ice cube. Stir, add the twist of lemon peel, and serve.",
@@ -7351,18 +7351,18 @@
       "ingredients": [
         {
           "name": "Midori melon liqueur",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Jägermeister",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Goldschlager",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         }
       ],
       "instructions": "Layer in a 2 oz shot glass or pony glass",
@@ -7377,18 +7377,18 @@
       "ingredients": [
         {
           "name": "Scotch",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Drambuie",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Lemon peel",
-          "amount": 1,
-          "unit": "1 twist of"
+          "amount": 2,
+          "unit": "twist of"
         }
       ],
       "instructions": "Pour the Scotch and Drambuie into an old-fashioned glass almost filled with ice cubes. Stir well. Garnish with the lemon twist.",
@@ -7405,23 +7405,23 @@
       "ingredients": [
         {
           "name": "Gin",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Sweet Vermouth",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Maraschino Liqueur",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Angostura Bitters",
-          "amount": 2,
-          "unit": "2 dashes"
+          "amount": 4,
+          "unit": "dashes"
         }
       ],
       "instructions": "Add all ingredients to a mixing glass and fill with ice.\r\n\r\nStir until chilled, and strain into a chilled coupe glass.",
@@ -7436,18 +7436,18 @@
       "ingredients": [
         {
           "name": "Vodka",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Cranberry juice",
-          "amount": 4,
-          "unit": "4 oz"
+          "amount": 8,
+          "unit": "oz"
         },
         {
           "name": "Grapefruit juice",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         }
       ],
       "instructions": "Build all ingredients in a highball glass filled with ice. Garnish with lime wedge.",
@@ -7464,13 +7464,13 @@
       "ingredients": [
         {
           "name": "Jägermeister",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Root beer",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         }
       ],
       "instructions": "Mix together and enjoy",
@@ -7485,18 +7485,18 @@
       "ingredients": [
         {
           "name": "Lemonade",
-          "amount": 1,
-          "unit": "1 can"
+          "amount": 2,
+          "unit": "can"
         },
         {
           "name": "Vodka",
-          "amount": 5,
-          "unit": "5 oz"
+          "amount": 10,
+          "unit": "oz"
         },
         {
           "name": "Rum",
-          "amount": 7,
-          "unit": "7 oz"
+          "amount": 14,
+          "unit": "oz"
         },
         {
           "name": "Ginger ale",
@@ -7516,13 +7516,13 @@
       "ingredients": [
         {
           "name": "Light rum",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Port",
-          "amount": 1,
-          "unit": "1 oz"
+          "amount": 2,
+          "unit": "oz"
         },
         {
           "name": "Lemon",
@@ -7531,13 +7531,13 @@
         },
         {
           "name": "Powdered sugar",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Egg white",
-          "amount": 1,
-          "unit": "1"
+          "amount": 2,
+          "unit": "unit"
         },
         {
           "name": "Carbonated water",
@@ -7557,13 +7557,13 @@
       "ingredients": [
         {
           "name": "Zima",
-          "amount": 12,
-          "unit": "12 oz"
+          "amount": 24,
+          "unit": "oz"
         },
         {
           "name": "Chambord raspberry liqueur",
-          "amount": 3,
-          "unit": "3 oz"
+          "amount": 6,
+          "unit": "oz"
         }
       ],
       "instructions": "Fill glass with ice. Pour in Chambord, then fill with Zima. Mix and enjoy.",
@@ -7578,23 +7578,23 @@
       "ingredients": [
         {
           "name": "Amaretto",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         },
         {
           "name": "Jägermeister",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         },
         {
           "name": "Kahlua",
-          "amount": 1,
-          "unit": "1 part"
+          "amount": 2,
+          "unit": "part"
         },
         {
           "name": "Milk",
-          "amount": 2,
-          "unit": "2 1/2 parts"
+          "amount": 4.5,
+          "unit": "parts"
         }
       ],
       "instructions": "Served over ice. Sounds nasty, but tastes great.",
@@ -7609,13 +7609,13 @@
       "ingredients": [
         {
           "name": "Light rum",
-          "amount": 1,
-          "unit": "1/2 oz"
+          "amount": 1.5,
+          "unit": "oz"
         },
         {
           "name": "Blended whiskey",
-          "amount": 1,
-          "unit": "1 1/2 oz"
+          "amount": 2.5,
+          "unit": "oz"
         },
         {
           "name": "Lemon",
@@ -7624,8 +7624,8 @@
         },
         {
           "name": "Powdered sugar",
-          "amount": 1,
-          "unit": "1 tsp"
+          "amount": 2,
+          "unit": "tsp"
         },
         {
           "name": "Carbonated water",
@@ -7645,13 +7645,13 @@
       "ingredients": [
         {
           "name": "Coffee",
-          "amount": 1,
-          "unit": "1/2"
+          "amount": 1.5,
+          "unit": "unit"
         },
         {
           "name": "Peach schnapps",
-          "amount": 1,
-          "unit": "1/2"
+          "amount": 1.5,
+          "unit": "unit"
         }
       ],
       "instructions": "fill coffe mug half full of coffee. Fill the other half full of Peach Schnapps. Stir and drink while hot.",
