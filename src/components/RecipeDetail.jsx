@@ -1,4 +1,9 @@
+import { useState } from 'react';
+import { unitToML } from '../utils/unitConversion';
+
 export default function RecipeDetail({ cocktail }) {
+  const [showML, setShowML] = useState(false);
+
   const difficultyEmojis = {
     easy: '⭐',
     medium: '⭐⭐',
@@ -65,21 +70,39 @@ export default function RecipeDetail({ cocktail }) {
 
         {/* Ingredients */}
         <div className="bg-gradient-to-r from-cocktail-dark to-cocktail-purple p-6 rounded-lg border border-cocktail-gold">
-          <h2 className="text-2xl font-bold text-cocktail-gold mb-4">Ingredients</h2>
+          <div className="flex justify-between items-center mb-4">
+            <h2 className="text-2xl font-bold text-cocktail-gold">Ingredients</h2>
+            <button
+              onClick={() => setShowML(!showML)}
+              className="text-xs bg-cocktail-gold bg-opacity-20 text-cocktail-gold px-3 py-1 rounded hover:bg-opacity-40 transition"
+            >
+              {showML ? 'Show Original' : 'Show ML'}
+            </button>
+          </div>
           <div className="space-y-3">
-            {cocktail.ingredients.map((ingredient, idx) => (
-              <div
-                key={idx}
-                className="flex justify-between items-center p-3 bg-cocktail-dark bg-opacity-50 rounded border border-cocktail-gold border-opacity-30"
-              >
-                <span className="text-cocktail-light capitalize font-medium">
-                  {ingredient.name}
-                </span>
-                <span className="text-cocktail-gold font-bold">
-                  {ingredient.amount} {ingredient.unit}
-                </span>
-              </div>
-            ))}
+            {cocktail.ingredients.map((ingredient, idx) => {
+              const mlValue = unitToML(`${ingredient.amount} ${ingredient.unit}`);
+              return (
+                <div
+                  key={idx}
+                  className="flex justify-between items-center p-3 bg-cocktail-dark bg-opacity-50 rounded border border-cocktail-gold border-opacity-30"
+                >
+                  <span className="text-cocktail-light capitalize font-medium">
+                    {ingredient.name}
+                  </span>
+                  <span className="text-cocktail-gold font-bold">
+                    {showML && mlValue ? (
+                      <span>{mlValue}</span>
+                    ) : (
+                      <span>{ingredient.amount} {ingredient.unit}</span>
+                    )}
+                    {!showML && mlValue && (
+                      <span className="text-xs text-gray-400 ml-2">({mlValue})</span>
+                    )}
+                  </span>
+                </div>
+              );
+            })}
           </div>
         </div>
 
