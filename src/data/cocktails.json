@@ -1,0 +1,310 @@
+{
+  "cocktails": [
+    {
+      "id": 1,
+      "name": "Martini",
+      "base": "gin",
+      "ingredients": [
+        { "name": "gin", "amount": 2, "unit": "oz" },
+        { "name": "dry vermouth", "amount": 0.5, "unit": "oz" },
+        { "name": "olive", "amount": 1, "unit": "piece" }
+      ],
+      "instructions": "Stir gin and vermouth with ice. Strain into a chilled martini glass. Garnish with an olive.",
+      "flavorProfile": ["dry", "herbal", "strong"],
+      "difficulty": "easy",
+      "image": "https://www.thecocktaildb.com/images/media/drink/71t4e71504637144.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Margarita",
+      "base": "tequila",
+      "ingredients": [
+        { "name": "tequila", "amount": 2, "unit": "oz" },
+        { "name": "fresh lime juice", "amount": 1, "unit": "oz" },
+        { "name": "triple sec", "amount": 1, "unit": "oz" },
+        { "name": "salt", "amount": 1, "unit": "rim" }
+      ],
+      "instructions": "Shake tequila, lime juice, and triple sec with ice. Strain into a salt-rimmed glass. Serve on the rocks.",
+      "flavorProfile": ["sour", "citrus", "balanced"],
+      "difficulty": "easy",
+      "image": "https://www.thecocktaildb.com/images/media/drink/tg3aqy1561423478.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Old Fashioned",
+      "base": "whisky",
+      "ingredients": [
+        { "name": "whisky", "amount": 2, "unit": "oz" },
+        { "name": "sugar", "amount": 1, "unit": "cube" },
+        { "name": "angostura bitters", "amount": 2, "unit": "dashes" },
+        { "name": "water", "amount": 1, "unit": "splash" },
+        { "name": "orange peel", "amount": 1, "unit": "piece" }
+      ],
+      "instructions": "Muddle sugar and bitters. Add whisky and a large ice cube. Stir well. Garnish with orange peel.",
+      "flavorProfile": ["strong", "woody", "slightly sweet"],
+      "difficulty": "medium",
+      "image": "https://www.thecocktaildb.com/images/media/drink/bbqo061572288590.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Vodka Cranberry",
+      "base": "vodka",
+      "ingredients": [
+        { "name": "vodka", "amount": 1.5, "unit": "oz" },
+        { "name": "cranberry juice", "amount": 4, "unit": "oz" },
+        { "name": "fresh lime juice", "amount": 0.5, "unit": "oz" },
+        { "name": "ice", "amount": 1, "unit": "handful" }
+      ],
+      "instructions": "Pour vodka and cranberry juice over ice. Add a splash of lime juice. Stir and serve.",
+      "flavorProfile": ["sweet", "fruity", "tart"],
+      "difficulty": "easy",
+      "image": "https://www.thecocktaildb.com/images/media/drink/d0a4d9e1c8b2de8.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Mojito",
+      "base": "rum",
+      "ingredients": [
+        { "name": "white rum", "amount": 2, "unit": "oz" },
+        { "name": "fresh lime juice", "amount": 0.75, "unit": "oz" },
+        { "name": "simple syrup", "amount": 0.5, "unit": "oz" },
+        { "name": "mint leaves", "amount": 10, "unit": "leaves" },
+        { "name": "club soda", "amount": 2, "unit": "oz" }
+      ],
+      "instructions": "Muddle mint leaves with simple syrup. Add rum and lime juice. Fill glass with ice and top with club soda. Stir.",
+      "flavorProfile": ["fresh", "sweet", "minty"],
+      "difficulty": "easy",
+      "image": "https://www.thecocktaildb.com/images/media/drink/metwgh1608680271.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Gin & Tonic",
+      "base": "gin",
+      "ingredients": [
+        { "name": "gin", "amount": 2, "unit": "oz" },
+        { "name": "tonic water", "amount": 4, "unit": "oz" },
+        { "name": "lime wedge", "amount": 1, "unit": "piece" },
+        { "name": "ice", "amount": 1, "unit": "handful" }
+      ],
+      "instructions": "Pour gin into a glass filled with ice. Top with tonic water. Squeeze lime wedge and drop in.",
+      "flavorProfile": ["bitter", "herbal", "refreshing"],
+      "difficulty": "easy",
+      "image": "https://www.thecocktaildb.com/images/media/drink/r841e8.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Cosmopolitan",
+      "base": "vodka",
+      "ingredients": [
+        { "name": "vodka", "amount": 1.5, "unit": "oz" },
+        { "name": "cranberry juice", "amount": 0.75, "unit": "oz" },
+        { "name": "fresh lime juice", "amount": 0.5, "unit": "oz" },
+        { "name": "triple sec", "amount": 0.5, "unit": "oz" }
+      ],
+      "instructions": "Shake all ingredients with ice. Strain into a chilled cocktail glass. Garnish with lime wheel.",
+      "flavorProfile": ["sweet", "fruity", "balanced"],
+      "difficulty": "easy",
+      "image": "https://www.thecocktaildb.com/images/media/drink/fpx3f71504699372.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Whiskey Sour",
+      "base": "whisky",
+      "ingredients": [
+        { "name": "whisky", "amount": 2, "unit": "oz" },
+        { "name": "fresh lemon juice", "amount": 0.75, "unit": "oz" },
+        { "name": "simple syrup", "amount": 0.5, "unit": "oz" },
+        { "name": "egg white", "amount": 1, "unit": "optional" }
+      ],
+      "instructions": "Shake whisky, lemon juice, and simple syrup with ice. If using egg white, shake dry first, then with ice. Strain into a glass. Serve over ice.",
+      "flavorProfile": ["sour", "balanced", "smooth"],
+      "difficulty": "medium",
+      "image": "https://www.thecocktaildb.com/images/media/drink/hc6klu1504699876.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Daiquiri",
+      "base": "rum",
+      "ingredients": [
+        { "name": "white rum", "amount": 2, "unit": "oz" },
+        { "name": "fresh lime juice", "amount": 1, "unit": "oz" },
+        { "name": "simple syrup", "amount": 0.5, "unit": "oz" }
+      ],
+      "instructions": "Shake rum, lime juice, and simple syrup with ice. Strain into a chilled cocktail glass.",
+      "flavorProfile": ["sour", "balanced", "citrus"],
+      "difficulty": "easy",
+      "image": "https://www.thecocktaildb.com/images/media/drink/l3cd7y1582475334.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Long Island Iced Tea",
+      "base": "mixed",
+      "ingredients": [
+        { "name": "rum", "amount": 0.5, "unit": "oz" },
+        { "name": "vodka", "amount": 0.5, "unit": "oz" },
+        { "name": "gin", "amount": 0.5, "unit": "oz" },
+        { "name": "tequila", "amount": 0.5, "unit": "oz" },
+        { "name": "triple sec", "amount": 0.5, "unit": "oz" },
+        { "name": "fresh lemon juice", "amount": 0.75, "unit": "oz" },
+        { "name": "simple syrup", "amount": 0.5, "unit": "oz" },
+        { "name": "coca cola", "amount": 1, "unit": "splash" }
+      ],
+      "instructions": "Shake all spirits, lemon juice, and syrup with ice. Strain into a tall glass filled with ice. Top with cola. Stir.",
+      "flavorProfile": ["strong", "citrus", "balanced"],
+      "difficulty": "hard",
+      "image": "https://www.thecocktaildb.com/images/media/drink/0h8b0ou1582477920.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Negroni",
+      "base": "gin",
+      "ingredients": [
+        { "name": "gin", "amount": 1, "unit": "oz" },
+        { "name": "campari", "amount": 1, "unit": "oz" },
+        { "name": "sweet vermouth", "amount": 1, "unit": "oz" },
+        { "name": "orange peel", "amount": 1, "unit": "piece" }
+      ],
+      "instructions": "Stir gin, Campari, and vermouth with ice. Strain into a lowball glass with ice. Garnish with orange peel.",
+      "flavorProfile": ["bitter", "herbal", "strong"],
+      "difficulty": "easy",
+      "image": "https://www.thecocktaildb.com/images/media/drink/f4yfortw0o051.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Pina Colada",
+      "base": "rum",
+      "ingredients": [
+        { "name": "white rum", "amount": 3, "unit": "oz" },
+        { "name": "coconut cream", "amount": 3, "unit": "oz" },
+        { "name": "fresh pineapple juice", "amount": 3, "unit": "oz" },
+        { "name": "pineapple wedge", "amount": 1, "unit": "piece" }
+      ],
+      "instructions": "Blend rum, coconut cream, and pineapple juice with ice. Pour into a chilled glass. Garnish with pineapple wedge.",
+      "flavorProfile": ["sweet", "fruity", "tropical"],
+      "difficulty": "easy",
+      "image": "https://www.thecocktaildb.com/images/media/drink/upgsew1622572563.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Manhatttan",
+      "base": "whisky",
+      "ingredients": [
+        { "name": "whisky", "amount": 2, "unit": "oz" },
+        { "name": "sweet vermouth", "amount": 1, "unit": "oz" },
+        { "name": "angostura bitters", "amount": 2, "unit": "dashes" },
+        { "name": "cherry", "amount": 1, "unit": "piece" }
+      ],
+      "instructions": "Stir whisky, vermouth, and bitters with ice. Strain into a chilled coupe glass. Garnish with cherry.",
+      "flavorProfile": ["sweet", "strong", "herbal"],
+      "difficulty": "easy",
+      "image": "https://www.thecocktaildb.com/images/media/drink/f6zz671609525620.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Vodka Tonic",
+      "base": "vodka",
+      "ingredients": [
+        { "name": "vodka", "amount": 2, "unit": "oz" },
+        { "name": "tonic water", "amount": 4, "unit": "oz" },
+        { "name": "lime wedge", "amount": 1, "unit": "piece" }
+      ],
+      "instructions": "Pour vodka over ice. Top with tonic water. Squeeze lime and drop in.",
+      "flavorProfile": ["bitter", "refreshing", "light"],
+      "difficulty": "easy",
+      "image": "https://www.thecocktaildb.com/images/media/drink/lm08au1582729261.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Mint Julep",
+      "base": "whisky",
+      "ingredients": [
+        { "name": "bourbon", "amount": 2.5, "unit": "oz" },
+        { "name": "simple syrup", "amount": 0.5, "unit": "oz" },
+        { "name": "fresh mint", "amount": 8, "unit": "leaves" },
+        { "name": "water", "amount": 1, "unit": "splash" }
+      ],
+      "instructions": "Muddle mint gently with syrup. Add bourbon and water. Fill cup with crushed ice. Stir and top with more ice. Garnish with mint sprig.",
+      "flavorProfile": ["sweet", "minty", "refreshing"],
+      "difficulty": "medium",
+      "image": "https://www.thecocktaildb.com/images/media/drink/ir04aw1582382223.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Virgin Mojito",
+      "base": "mocktail",
+      "ingredients": [
+        { "name": "fresh lime juice", "amount": 0.75, "unit": "oz" },
+        { "name": "simple syrup", "amount": 0.5, "unit": "oz" },
+        { "name": "mint leaves", "amount": 10, "unit": "leaves" },
+        { "name": "club soda", "amount": 4, "unit": "oz" },
+        { "name": "ice", "amount": 1, "unit": "handful" }
+      ],
+      "instructions": "Muddle mint with simple syrup. Add lime juice and fill glass with ice. Top with club soda. Stir.",
+      "flavorProfile": ["fresh", "sweet", "minty"],
+      "difficulty": "easy",
+      "image": "https://www.thecocktaildb.com/images/media/drink/xwqvur1461861588.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Virgin Colada",
+      "base": "mocktail",
+      "ingredients": [
+        { "name": "coconut cream", "amount": 3, "unit": "oz" },
+        { "name": "fresh pineapple juice", "amount": 3, "unit": "oz" },
+        { "name": "ice", "amount": 1, "unit": "cup" },
+        { "name": "pineapple wedge", "amount": 1, "unit": "piece" }
+      ],
+      "instructions": "Blend coconut cream, pineapple juice, and ice. Pour into a glass. Garnish with pineapple.",
+      "flavorProfile": ["sweet", "fruity", "tropical"],
+      "difficulty": "easy",
+      "image": "https://www.thecocktaildb.com/images/media/drink/upgsew1622572563.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Aperol Spritz",
+      "base": "aperol",
+      "ingredients": [
+        { "name": "aperol", "amount": 3, "unit": "oz" },
+        { "name": "prosecco", "amount": 3, "unit": "oz" },
+        { "name": "soda water", "amount": 1, "unit": "splash" },
+        { "name": "orange slice", "amount": 1, "unit": "piece" }
+      ],
+      "instructions": "Build drink in a glass with ice. Add Aperol, then Prosecco. Top with soda. Stir gently. Garnish with orange.",
+      "flavorProfile": ["bitter", "fruity", "light"],
+      "difficulty": "easy",
+      "image": "https://www.thecocktaildb.com/images/media/drink/3fe7o651704097811.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Amaretto Sour",
+      "base": "amaretto",
+      "ingredients": [
+        { "name": "amaretto", "amount": 1.5, "unit": "oz" },
+        { "name": "fresh lemon juice", "amount": 0.75, "unit": "oz" },
+        { "name": "simple syrup", "amount": 0.5, "unit": "oz" },
+        { "name": "egg white", "amount": 1, "unit": "optional" }
+      ],
+      "instructions": "Shake amaretto, lemon juice, and syrup with ice. Strain into a glass with ice. Top with soda if desired.",
+      "flavorProfile": ["sweet", "sour", "almond"],
+      "difficulty": "easy",
+      "image": "https://www.thecocktaildb.com/images/media/drink/1hmo5e1504775474.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Bloody Mary",
+      "base": "vodka",
+      "ingredients": [
+        { "name": "vodka", "amount": 1.5, "unit": "oz" },
+        { "name": "tomato juice", "amount": 4, "unit": "oz" },
+        { "name": "fresh lemon juice", "amount": 0.5, "unit": "oz" },
+        { "name": "Worcestershire sauce", "amount": 2, "unit": "dashes" },
+        { "name": "tabasco sauce", "amount": 2, "unit": "dashes" },
+        { "name": "celery salt", "amount": 1, "unit": "rim" }
+      ],
+      "instructions": "Pour vodka into a glass with ice. Add tomato juice, lemon juice, Worcestershire, and Tabasco. Stir. Garnish with celery stick.",
+      "flavorProfile": ["savory", "spicy", "tangy"],
+      "difficulty": "easy",
+      "image": "https://www.thecocktaildb.com/images/media/drink/wtppnf1582380737.jpg"
+    }
+  ]
+}
