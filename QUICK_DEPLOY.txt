@@ -1,0 +1,66 @@
+🚀 QUICK DEPLOYMENT STEPS
+===========================
+
+STEP 1: CREATE GITHUB REPO
+===========================
+1. Go to https://github.com/new
+2. Create repository: "cocktail-wizard"
+3. Choose PUBLIC
+4. Click "Create repository"
+
+STEP 2: PUSH CODE TO GITHUB
+===========================
+Run these 3 commands (replace YOUR_USERNAME):
+
+git remote add origin https://github.com/YOUR_USERNAME/cocktail-wizard.git
+git branch -M main
+git push -u origin main
+
+STEP 3: DEPLOY TO VERCEL
+===========================
+1. Go to https://vercel.com/signup
+2. Sign up with GitHub
+3. Go to https://vercel.com/dashboard
+4. Click "Add New" → "Project"
+5. Select "cocktail-wizard" repository
+6. Framework: Vite (auto-selected)
+7. Click "Deploy"
+8. Wait 2-3 minutes...
+
+✅ YOUR APP IS LIVE!
+
+STEP 4: AUTOMATIC DEPLOYMENTS ENABLED
+===========================
+Every time you do:
+  git push
+  
+Vercel automatically redeploys within 2-3 minutes!
+
+EXAMPLE WORKFLOW:
+===========================
+1. Edit code in your editor
+2. Test with: npm run dev
+3. Commit:
+   git add .
+   git commit -m "Updated cocktail list"
+4. Push:
+   git push
+5. Check Vercel dashboard - deployment in progress!
+6. Your changes go live within minutes
+
+YOUR LIVE URL:
+===========================
+https://cocktail-wizard.vercel.app
+(or whatever you named your Vercel project)
+
+OPTIONAL: CUSTOM DOMAIN
+===========================
+In Vercel dashboard → Project Settings → Domains
+Add your own domain (costs ~$10-15/year)
+
+NEED HELP?
+===========================
+Check DEPLOYMENT_GUIDE.md for detailed instructions
+or visit https://vercel.com/docs
+
+🍸 Happy Deploying!
