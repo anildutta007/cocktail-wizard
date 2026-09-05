@@ -75,11 +75,7 @@ export default function RecipeSearch() {
     whisky: '🥃',
     tequila: '🌵',
     mocktail: '🎉',
-    mixed: '🍹',
-    aperol: '✨',
-    amaretto: '🤎',
     brandy: '🍷',
-    sake: '🍶',
     champagne: '🥂',
   };
 

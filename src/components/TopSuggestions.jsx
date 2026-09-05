@@ -31,9 +31,8 @@ export default function TopSuggestions() {
     whisky: '🥃',
     tequila: '🌵',
     mocktail: '🎉',
-    mixed: '🍹',
-    aperol: '✨',
-    amaretto: '🤎',
+    brandy: '🍷',
+    champagne: '🥂',
   };
 
   if (selectedCocktail) {
