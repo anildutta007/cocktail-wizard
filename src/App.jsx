@@ -4,6 +4,7 @@ import IngredientMatcher from './components/IngredientMatcher';
 import RecipeSearch from './components/RecipeSearch';
 import TopSuggestions from './components/TopSuggestions';
 import AdvancedFilter from './components/AdvancedFilter';
+import Logo from './components/Logo';
 import './App.css';
 
 export default function App() {
@@ -18,8 +19,13 @@ export default function App() {
     return (
       <div className="min-h-screen bg-gradient-to-br from-cocktail-dark via-cocktail-purple to-cocktail-dark flex items-center justify-center">
         <div className="text-center">
-          <div className="text-6xl mb-4">🍸</div>
+          <div className="mb-4 flex justify-center">
+            <div style={{ width: '80px', height: '80px' }}>
+              <Logo />
+            </div>
+          </div>
           <h1 className="text-3xl font-bold text-cocktail-gold mb-2">Cocktail Wizard</h1>
+          <p className="text-cocktail-accent text-sm font-semibold mb-4">by Dutta</p>
           <p className="text-cocktail-light">Loading your cocktail database...</p>
         </div>
       </div>
@@ -40,10 +46,11 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center gap-3">
-              <div className="text-5xl">🍸</div>
+              <Logo />
               <div>
                 <h1 className="text-3xl font-bold text-cocktail-gold font-serif">Cocktail Wizard</h1>
                 <p className="text-cocktail-light text-sm">Find & Mix Perfect Drinks</p>
+                <p className="text-cocktail-accent text-xs font-semibold mt-1">by Dutta</p>
               </div>
             </div>
           </div>
@@ -79,8 +86,11 @@ export default function App() {
       {/* Footer */}
       <footer className="bg-gradient-to-r from-cocktail-dark to-cocktail-purple border-t border-cocktail-gold mt-12 py-6">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <p className="text-gray-400 text-sm">
+          <p className="text-gray-400 text-sm mb-2">
             🍹 Craft the perfect cocktail with Cocktail Wizard | Drink Responsibly 🍹
+          </p>
+          <p className="text-cocktail-accent text-xs">
+            Created with ❤️ by <span className="font-bold">Anil Dutta</span> | All cocktail data sourced from TheCocktailDB
           </p>
         </div>
       </footer>
