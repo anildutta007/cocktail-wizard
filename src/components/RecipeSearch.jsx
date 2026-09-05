@@ -115,7 +115,8 @@ export default function RecipeSearch() {
             <select
               onChange={(e) => {
                 if (e.target.value) {
-                  const cocktail = availableCocktails.find(c => c.id === e.target.value);
+                  const cocktailId = parseInt(e.target.value);
+                  const cocktail = availableCocktails.find(c => c.id === cocktailId);
                   if (cocktail) {
                     handleSelectCocktailFromDropdown(cocktail);
                   }
@@ -128,7 +129,7 @@ export default function RecipeSearch() {
                 Select a {selectedBase === 'all' ? 'cocktail' : selectedBase} drink...
               </option>
               {availableCocktails.map(cocktail => (
-                <option key={cocktail.id} value={cocktail.id} className="bg-cocktail-dark">
+                <option key={cocktail.id} value={cocktail.id.toString()} className="bg-cocktail-dark">
                   {cocktail.name}
                 </option>
               ))}
