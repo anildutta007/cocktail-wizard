@@ -114,7 +114,7 @@ export default function RecipeSearch() {
               {/* Dropdown Input */}
               <input
                 type="text"
-                placeholder={`Search a {selectedBase === 'all' ? 'cocktail' : selectedBase} drink...`}
+                placeholder={`Search a ${selectedBase === 'all' ? 'cocktail' : selectedBase} drink...`}
                 value={cocktailSearchQuery}
                 onChange={(e) => {
                   setCocktailSearchQuery(e.target.value);
