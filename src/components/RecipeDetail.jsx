@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { unitToML } from '../utils/unitConversion';
+import { isLiquidIngredient } from '../utils/ingredientTypes';
 
 export default function RecipeDetail({ cocktail }) {
   const [showML, setShowML] = useState(false);
@@ -81,7 +82,8 @@ export default function RecipeDetail({ cocktail }) {
           </div>
           <div className="space-y-3">
             {cocktail.ingredients.map((ingredient, idx) => {
-              const mlValue = unitToML(`${ingredient.amount} ${ingredient.unit}`);
+              const isLiquid = isLiquidIngredient(ingredient.name);
+              const mlValue = isLiquid ? unitToML(`${ingredient.amount} ${ingredient.unit}`) : null;
               return (
                 <div
                   key={idx}
