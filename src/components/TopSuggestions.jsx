@@ -1,11 +1,13 @@
 import { useState, useEffect } from 'react';
 import { getAllBases, getTopByBase } from '../utils/database';
 import CocktailCard from './CocktailCard';
+import RecipeDetail from './RecipeDetail';
 
 export default function TopSuggestions() {
   const [bases, setBases] = useState([]);
   const [selectedBase, setSelectedBase] = useState(null);
   const [topCocktails, setTopCocktails] = useState([]);
+  const [selectedCocktail, setSelectedCocktail] = useState(null);
 
   useEffect(() => {
     const availableBases = getAllBases().sort();
@@ -33,6 +35,20 @@ export default function TopSuggestions() {
     aperol: '✨',
     amaretto: '🤎',
   };
+
+  if (selectedCocktail) {
+    return (
+      <div>
+        <button
+          onClick={() => setSelectedCocktail(null)}
+          className="mb-4 bg-cocktail-gold text-cocktail-dark px-4 py-2 rounded-lg font-semibold hover:opacity-90 transition"
+        >
+          ← Back to Top Picks
+        </button>
+        <RecipeDetail cocktail={selectedCocktail} />
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6">
@@ -71,7 +87,13 @@ export default function TopSuggestions() {
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {topCocktails.map(cocktail => (
-                  <CocktailCard key={cocktail.id} cocktail={cocktail} />
+                  <div
+                    key={cocktail.id}
+                    onClick={() => setSelectedCocktail(cocktail)}
+                    className="cursor-pointer"
+                  >
+                    <CocktailCard cocktail={cocktail} />
+                  </div>
                 ))}
               </div>
             )}

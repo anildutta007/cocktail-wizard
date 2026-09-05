@@ -1,16 +1,22 @@
+import { useState } from 'react';
+
 export default function CocktailCard({ cocktail }) {
+  const [imageError, setImageError] = useState(false);
+
+  const handleImageError = () => {
+    setImageError(true);
+  };
+
   return (
     <div className="bg-gradient-to-br from-cocktail-purple to-cocktail-dark border border-cocktail-gold rounded-lg overflow-hidden hover:shadow-2xl hover:shadow-cocktail-gold/50 transition transform hover:scale-105">
       <div className="relative h-40 bg-gradient-to-r from-cocktail-gold to-cocktail-accent flex items-center justify-center overflow-hidden">
-        {cocktail.image ? (
+        {cocktail.image && !imageError ? (
           <img
             src={cocktail.image}
             alt={cocktail.name}
             className="w-full h-full object-cover"
-            onError={(e) => {
-              e.target.style.display = 'none';
-              e.target.parentElement.classList.add('bg-gradient-to-r', 'from-cocktail-gold', 'to-cocktail-accent');
-            }}
+            onError={handleImageError}
+            crossOrigin="anonymous"
           />
         ) : (
           <div className="text-6xl">🍸</div>
