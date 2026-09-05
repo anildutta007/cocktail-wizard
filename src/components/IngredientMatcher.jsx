@@ -106,18 +106,75 @@ export default function IngredientMatcher() {
       {searched && (
         <div>
           <h3 className="text-2xl font-bold mb-4 text-cocktail-gold">
-            {results.length} Cocktails Found
+            {results.length} Cocktails You Can Make
           </h3>
           {results.length === 0 ? (
             <div className="bg-cocktail-purple bg-opacity-30 border border-cocktail-gold p-6 rounded-lg text-center">
               <p className="text-cocktail-light">
-                No cocktails found with these ingredients. Try adding more!
+                Add at least one ingredient + the base spirit to find cocktails you can make!
               </p>
             </div>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="space-y-4">
               {results.map(cocktail => (
-                <CocktailCard key={cocktail.id} cocktail={cocktail} />
+                <div
+                  key={cocktail.id}
+                  className="bg-gradient-to-r from-cocktail-dark to-cocktail-purple border border-cocktail-gold rounded-lg p-4"
+                >
+                  <div className="flex justify-between items-start mb-2">
+                    <div>
+                      <h4 className="text-xl font-bold text-cocktail-gold">{cocktail.name}</h4>
+                      <p className="text-sm text-gray-400 capitalize">{cocktail.base}</p>
+                    </div>
+                    <div className="text-right">
+                      <div className="text-2xl font-bold text-cocktail-accent">
+                        {cocktail.matchPercentage}%
+                      </div>
+                      <div className="text-xs text-gray-400">
+                        {cocktail.matchedCount} of {cocktail.totalIngredients}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Progress bar */}
+                  <div className="w-full bg-cocktail-dark rounded-full h-2 mb-3 overflow-hidden">
+                    <div
+                      className="bg-gradient-to-r from-cocktail-gold to-cocktail-accent h-full"
+                      style={{ width: `${cocktail.matchPercentage}%` }}
+                    />
+                  </div>
+
+                  {/* Missing ingredients */}
+                  {cocktail.missingIngredients.length > 0 && (
+                    <div className="mb-3">
+                      <p className="text-xs font-semibold text-cocktail-gold mb-1">
+                        Missing ({cocktail.missingIngredients.length}):
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        {cocktail.missingIngredients.map((ingredient, idx) => (
+                          <span
+                            key={idx}
+                            className="text-xs bg-cocktail-accent bg-opacity-20 text-cocktail-accent px-2 py-1 rounded capitalize"
+                          >
+                            {ingredient}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Flavor profile */}
+                  <div className="flex flex-wrap gap-1">
+                    {cocktail.flavorProfile.map((flavor, idx) => (
+                      <span
+                        key={idx}
+                        className="text-xs bg-cocktail-gold bg-opacity-20 text-cocktail-gold px-2 py-1 rounded capitalize"
+                      >
+                        {flavor}
+                      </span>
+                    ))}
+                  </div>
+                </div>
               ))}
             </div>
           )}

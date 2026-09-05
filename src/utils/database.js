@@ -31,17 +31,58 @@ export const searchByName = (query) => {
   );
 };
 
-// Search cocktails by ingredients
+// Search cocktails by ingredients - shows cocktails you can make with available ingredients
 export const searchByIngredients = (userIngredients) => {
   const cocktails = getAllCocktails();
   const normalizedUserIngredients = userIngredients.map(i => i.toLowerCase());
 
-  return cocktails.filter(cocktail => {
-    const cocktailIngredients = cocktail.ingredients.map(i => i.name.toLowerCase());
-    return cocktailIngredients.every(ci =>
-      normalizedUserIngredients.some(ui => ci.includes(ui) || ui.includes(ci))
-    );
-  });
+  const results = cocktails
+    .map(cocktail => {
+      const cocktailIngredients = cocktail.ingredients.map(i => i.name.toLowerCase());
+
+      // Count how many ingredients the user has
+      let matchedCount = 0;
+      const missingIngredients = [];
+
+      cocktailIngredients.forEach(ci => {
+        const hasIngredient = normalizedUserIngredients.some(
+          ui => ci.includes(ui) || ui.includes(ci)
+        );
+
+        if (hasIngredient) {
+          matchedCount++;
+        } else {
+          missingIngredients.push(ci);
+        }
+      });
+
+      // Only show cocktails where user has at least the base spirit + 1 more ingredient
+      const hasBaseSpirit = normalizedUserIngredients.some(ui =>
+        cocktail.base.toLowerCase().includes(ui) || ui.includes(cocktail.base.toLowerCase())
+      );
+
+      if (hasBaseSpirit && matchedCount >= 1) {
+        return {
+          ...cocktail,
+          matchedCount,
+          totalIngredients: cocktailIngredients.length,
+          missingIngredients,
+          matchPercentage: Math.round((matchedCount / cocktailIngredients.length) * 100)
+        };
+      }
+      return null;
+    })
+    .filter(c => c !== null)
+    .sort((a, b) => {
+      // Sort by match percentage (descending)
+      if (b.matchPercentage !== a.matchPercentage) {
+        return b.matchPercentage - a.matchPercentage;
+      }
+      // Then by number of matched ingredients
+      return b.matchedCount - a.matchedCount;
+    });
+
+  return results;
 };
 
 // Get top cocktails by base spirit
