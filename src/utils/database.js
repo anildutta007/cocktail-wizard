@@ -85,10 +85,21 @@ export const searchByIngredients = (userIngredients) => {
   return results;
 };
 
-// Get top cocktails by base spirit
-export const getTopByBase = (base) => {
+// Get top cocktails by base spirit (limit defaults to 10)
+export const getTopByBase = (base, limit = 10) => {
   const cocktails = getAllCocktails();
-  return cocktails.filter(c => c.base === base).slice(0, 5);
+  return cocktails.filter(c => c.base === base).slice(0, limit);
+};
+
+// Get ALL cocktails by base spirit (not just top 5)
+export const getCocktailsByBase = (base) => {
+  const cocktails = getAllCocktails();
+  if (base === 'all') {
+    return cocktails.sort((a, b) => a.name.localeCompare(b.name));
+  }
+  return cocktails
+    .filter(c => c.base === base)
+    .sort((a, b) => a.name.localeCompare(b.name));
 };
 
 // Get all unique spirits

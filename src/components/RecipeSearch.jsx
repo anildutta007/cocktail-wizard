@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { searchByName, getAllBases } from '../utils/database';
+import { searchByName, getAllBases, getAllCocktails, getCocktailsByBase } from '../utils/database';
 import RecipeDetail from './RecipeDetail';
 import CocktailCard from './CocktailCard';
 
@@ -7,6 +7,7 @@ export default function RecipeSearch() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedBase, setSelectedBase] = useState('all');
   const [availableBases, setAvailableBases] = useState([]);
+  const [availableCocktails, setAvailableCocktails] = useState([]);
   const [results, setResults] = useState([]);
   const [selectedCocktail, setSelectedCocktail] = useState(null);
   const [searched, setSearched] = useState(false);
@@ -14,7 +15,14 @@ export default function RecipeSearch() {
   useEffect(() => {
     const bases = getAllBases().sort();
     setAvailableBases(bases);
+    // Load cocktails for initial base (all)
+    setAvailableCocktails(getCocktailsByBase('all'));
   }, []);
+
+  useEffect(() => {
+    // Update available cocktails when base changes
+    setAvailableCocktails(getCocktailsByBase(selectedBase));
+  }, [selectedBase]);
 
   const handleSearch = () => {
     if (searchQuery.trim() === '') {
@@ -31,6 +39,13 @@ export default function RecipeSearch() {
 
     setResults(found);
     setSearched(true);
+  };
+
+  const handleSelectCocktailFromDropdown = (cocktail) => {
+    setSelectedCocktail(cocktail);
+    setSearched(false);
+    setSearchQuery('');
+    setResults([]);
   };
 
   const handleKeyPress = (e) => {
@@ -96,7 +111,37 @@ export default function RecipeSearch() {
           </div>
 
           <div>
-            <label className="block text-cocktail-gold font-semibold mb-2">Cocktail Name</label>
+            <label className="block text-cocktail-gold font-semibold mb-2">Available Cocktails</label>
+            <select
+              onChange={(e) => {
+                if (e.target.value) {
+                  const cocktail = availableCocktails.find(c => c.id === e.target.value);
+                  if (cocktail) {
+                    handleSelectCocktailFromDropdown(cocktail);
+                  }
+                  e.target.value = '';
+                }
+              }}
+              className="w-full px-4 py-2 rounded bg-cocktail-dark border border-cocktail-gold text-white focus:outline-none focus:ring-2 focus:ring-cocktail-gold"
+            >
+              <option value="">
+                Select a {selectedBase === 'all' ? 'cocktail' : selectedBase} drink...
+              </option>
+              {availableCocktails.map(cocktail => (
+                <option key={cocktail.id} value={cocktail.id} className="bg-cocktail-dark">
+                  {cocktail.name}
+                </option>
+              ))}
+            </select>
+            {availableCocktails.length > 0 && (
+              <p className="text-xs text-gray-400 mt-1">
+                {availableCocktails.length} cocktail{availableCocktails.length !== 1 ? 's' : ''} available
+              </p>
+            )}
+          </div>
+
+          <div>
+            <label className="block text-cocktail-gold font-semibold mb-2">Or Search by Name</label>
             <input
               type="text"
               value={searchQuery}
