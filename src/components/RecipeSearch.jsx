@@ -1,13 +1,20 @@
-import { useState } from 'react';
-import { searchByName } from '../utils/database';
+import { useState, useEffect } from 'react';
+import { searchByName, getAllBases } from '../utils/database';
 import RecipeDetail from './RecipeDetail';
 import CocktailCard from './CocktailCard';
 
 export default function RecipeSearch() {
   const [searchQuery, setSearchQuery] = useState('');
+  const [selectedBase, setSelectedBase] = useState('all');
+  const [availableBases, setAvailableBases] = useState([]);
   const [results, setResults] = useState([]);
   const [selectedCocktail, setSelectedCocktail] = useState(null);
   const [searched, setSearched] = useState(false);
+
+  useEffect(() => {
+    const bases = getAllBases().sort();
+    setAvailableBases(bases);
+  }, []);
 
   const handleSearch = () => {
     if (searchQuery.trim() === '') {
@@ -15,7 +22,13 @@ export default function RecipeSearch() {
       setSearched(false);
       return;
     }
-    const found = searchByName(searchQuery);
+    let found = searchByName(searchQuery);
+
+    // Filter by selected base if not 'all'
+    if (selectedBase !== 'all') {
+      found = found.filter(c => c.base === selectedBase);
+    }
+
     setResults(found);
     setSearched(true);
   };
@@ -40,24 +53,63 @@ export default function RecipeSearch() {
     );
   }
 
+  const baseEmojis = {
+    gin: '🌿',
+    vodka: '❄️',
+    rum: '🥥',
+    whisky: '🥃',
+    tequila: '🌵',
+    mocktail: '🎉',
+    mixed: '🍹',
+    aperol: '✨',
+    amaretto: '🤎',
+    brandy: '🍷',
+    sake: '🍶',
+    champagne: '🥂',
+  };
+
   return (
     <div className="space-y-6">
       <div>
         <h2 className="text-3xl font-bold mb-4 text-cocktail-gold">Search by Name</h2>
 
-        <div className="bg-gradient-to-r from-cocktail-dark to-cocktail-purple p-4 rounded-lg mb-4">
-          <input
-            type="text"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            onKeyPress={handleKeyPress}
-            placeholder="e.g., Margarita, Mojito, Old Fashioned..."
-            className="w-full px-4 py-2 rounded bg-cocktail-dark border border-cocktail-gold text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cocktail-gold"
-          />
+        <div className="bg-gradient-to-r from-cocktail-dark to-cocktail-purple p-4 rounded-lg mb-4 space-y-4">
+          <div>
+            <label className="block text-cocktail-gold font-semibold mb-2">Spirit Type</label>
+            <select
+              value={selectedBase}
+              onChange={(e) => {
+                setSelectedBase(e.target.value);
+                if (searched) {
+                  handleSearch(); // Re-search with new filter
+                }
+              }}
+              className="w-full px-4 py-2 rounded bg-cocktail-dark border border-cocktail-gold text-white focus:outline-none focus:ring-2 focus:ring-cocktail-gold"
+            >
+              <option value="all">All Types</option>
+              {availableBases.map(base => (
+                <option key={base} value={base} className="bg-cocktail-dark">
+                  {baseEmojis[base] || '🍸'} {base.charAt(0).toUpperCase() + base.slice(1)}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <div>
+            <label className="block text-cocktail-gold font-semibold mb-2">Cocktail Name</label>
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              onKeyPress={handleKeyPress}
+              placeholder="e.g., Margarita, Mojito, Old Fashioned..."
+              className="w-full px-4 py-2 rounded bg-cocktail-dark border border-cocktail-gold text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cocktail-gold"
+            />
+          </div>
 
           <button
             onClick={handleSearch}
-            className="w-full mt-4 bg-gradient-to-r from-cocktail-gold to-cocktail-accent hover:opacity-90 text-cocktail-dark font-bold py-3 rounded-lg transition"
+            className="w-full bg-gradient-to-r from-cocktail-gold to-cocktail-accent hover:opacity-90 text-cocktail-dark font-bold py-3 rounded-lg transition"
           >
             Search Recipe
           </button>
